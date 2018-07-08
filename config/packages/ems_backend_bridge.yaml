@@ -1,0 +1,28 @@
+parameters:
+    env(ELASTICSEARCH_CLUSTER): '["http://localhost:9200"]'
+    app.elasticsearch.cluster: '%env(json:ELASTICSEARCH_CLUSTER)%'
+    env(LIVE_INDEX): live
+    app.live.index: '%env(LIVE_INDEX)%'
+    env(PREVIEW_INDEX): preview
+    app.preview.index: '%env(PREVIEW_INDEX)%'
+    env(PREVIEW_REGEX): /preview/
+    app.preview.regex: '%env(PREVIEW_REGEX)%'
+    env(INSTANCE_ID): website_
+    app.instance_id: '%env(INSTANCE_ID)%'
+
+
+ems_backend_bridge:
+    request_environments:
+        preview:
+           regex: '%app.preview.regex%'
+           index: '%app.preview.index%'
+        live:
+           regex: '/.*/'
+           index: '%app.live.index%'
+    elasticms:
+        website:
+            #cluster: '%env(json:ELASTICSEARCH_CLUSTER)%'
+            hosts: '%env(json:ELASTICSEARCH_CLUSTER)%'
+            index_prefix: '%app.instance_id%'
+            translation_type: 'label'
+    clear_cache: website
