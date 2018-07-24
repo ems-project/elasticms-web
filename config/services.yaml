@@ -29,3 +29,6 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+
+    #define the default client request via an alias
+    EMS\ClientHelperBundle\EMSBackendBridgeBundle\Elasticsearch\ClientRequest: '@emsch.client_request.website'

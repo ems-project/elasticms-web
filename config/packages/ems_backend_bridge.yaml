@@ -1,28 +1,25 @@
 parameters:
-    env(ELASTICSEARCH_CLUSTER): '["http://localhost:9200"]'
-    app.elasticsearch.cluster: '%env(json:ELASTICSEARCH_CLUSTER)%'
-    env(LIVE_INDEX): live
-    app.live.index: '%env(LIVE_INDEX)%'
-    env(PREVIEW_INDEX): preview
-    app.preview.index: '%env(PREVIEW_INDEX)%'
-    env(PREVIEW_REGEX): /preview/
-    app.preview.regex: '%env(PREVIEW_REGEX)%'
-    env(INSTANCE_ID): website_
-    app.instance_id: '%env(INSTANCE_ID)%'
-
+    env(EMSCH_ELASTICSEARCH_CLUSTER): '["http://localhost:9200"]'
+    env(EMSCH_LIVE_INDEX): preview
+    env(EMSCH_PREVIEW_INDEX): preview
+    env(EMSCH_PREVIEW_REGEX): /preview/
+    env(EMSCH_INSTANCE_ID): website_
+    env(EMSCH_TRANSLATION_TYPE): label
+    env(EMSCH_TEMPLATE_TYPE): template
 
 ems_backend_bridge:
     request_environments:
         preview:
-           regex: '%app.preview.regex%'
-           index: '%app.preview.index%'
+           regex: '%env(string:EMSCH_PREVIEW_REGEX)%'
+           index: '%env(string:EMSCH_PREVIEW_INDEX)%'
         live:
            regex: '/.*/'
-           index: '%app.live.index%'
+           index: '%env(string:EMSCH_LIVE_INDEX)%'
     elasticms:
         website:
-            #cluster: '%env(json:ELASTICSEARCH_CLUSTER)%'
-            hosts: '%env(json:ELASTICSEARCH_CLUSTER)%'
-            index_prefix: '%app.instance_id%'
-            translation_type: 'label'
+            #cluster: '%env(json:EMSCH_ELASTICSEARCH_CLUSTER)%'
+            hosts: '%env(json:EMSCH_ELASTICSEARCH_CLUSTER)%'
+            index_prefix: '%env(string:EMSCH_INSTANCE_ID)%'
+            translation_type: '%env(string:EMSCH_TRANSLATION_TYPE)%'
+            template_type: '%env(string:EMSCH_TEMPLATE_TYPE)%'
     clear_cache: website

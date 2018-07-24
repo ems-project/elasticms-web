@@ -1,3 +1,7 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+ems_backend_bridge:
+#    # loads routes from the given routing file stored in some bundle
+    resource: '@EMSBackendBridgeBundle/Resources/config/routing_api.yml'
+#    autowire: true

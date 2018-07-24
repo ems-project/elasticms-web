@@ -1,4 +1,9 @@
+parameters:
+    env(INSTANCE_ID): website_
+
 twig:
     paths: ['%kernel.project_dir%/templates']
     debug: '%kernel.debug%'
     strict_variables: '%kernel.debug%'
+    globals:
+      prefix: '%env(INSTANCE_ID)%'
