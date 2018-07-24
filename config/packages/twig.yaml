@@ -7,3 +7,4 @@ twig:
     strict_variables: '%kernel.debug%'
     globals:
       prefix: '%env(INSTANCE_ID)%'
+      languages: '%env(json:LOCALES)%'
