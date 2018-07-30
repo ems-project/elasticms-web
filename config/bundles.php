@@ -15,5 +15,6 @@ return [
     Symfony\Bundle\MakerBundle\MakerBundle::class => ['dev' => true],
     Symfony\Bundle\WebServerBundle\WebServerBundle::class => ['dev' => true],
     EMS\ClientHelperBundle\EMSBackendBridgeBundle\EMSBackendBridgeBundle::class => ['all' => true],
+    EMS\ClientHelperBundle\EMSRoutingBundle\EMSRoutingBundle::class => ['all' => true],
 //    EMS\ClientHelperBundle\EMSWebDebugBarBundle\EMSWebDebugBarBundle::class => ['dev' => true],
 ];

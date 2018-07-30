@@ -5,7 +5,6 @@ parameters:
     env(EMSCH_PREVIEW_REGEX): /preview/
     env(EMSCH_INSTANCE_ID): website_
     env(EMSCH_TRANSLATION_TYPE): label
-    env(EMSCH_TEMPLATE_TYPE): template
 
 ems_backend_bridge:
     request_environments:
@@ -21,5 +20,7 @@ ems_backend_bridge:
             hosts: '%env(json:EMSCH_ELASTICSEARCH_CLUSTER)%'
             index_prefix: '%env(string:EMSCH_INSTANCE_ID)%'
             translation_type: '%env(string:EMSCH_TRANSLATION_TYPE)%'
-            template_type: '%env(string:EMSCH_TEMPLATE_TYPE)%'
+            templates:
+                template: {name: 'key', code: 'body'}
+#                routing: {name: 'content_type', code: 'template'}
     clear_cache: website
