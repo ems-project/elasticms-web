@@ -9,6 +9,8 @@ require('bootstrap');
 // require('bootstrap/js/dist/tooltip');
 // require('bootstrap/js/dist/popover');
 
+import {} from 'emsch';
+
 $(document).ready(function() {
     console.log('Hello world, welcome to elasticms website skeleton');
 });
