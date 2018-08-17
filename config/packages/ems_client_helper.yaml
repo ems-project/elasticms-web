@@ -1,26 +1,32 @@
 parameters:
-    env(EMSCH_ELASTICSEARCH_CLUSTER): '["http://localhost:9200"]'
-    env(EMSCH_LIVE_INDEX): preview
-    env(EMSCH_PREVIEW_INDEX): preview
-    env(EMSCH_PREVIEW_REGEX): /preview/
     env(EMSCH_INSTANCE_ID): website_
+    env(EMSCH_ELASTICSEARCH_CLUSTER): '["http://localhost:9200"]'
+    env(EMSCH_LIVE_INDEX): live
+    env(EMSCH_PREVIEW_INDEX): preview
+    env(EMSCH_PREVIEW_REGEX): '/preview/'
     env(EMSCH_TRANSLATION_TYPE): label
+    env(EMSCH_TEMPLATES): '{"template": {"name": "key","code": "body"}, "routing": {"name": "content_type","code": "body"}}'
+    env(EMSCH_ROUTES): '{}'
 
-ems_backend_bridge:
+ems_client_helper:
     request_environments:
         preview:
            regex: '%env(string:EMSCH_PREVIEW_REGEX)%'
            index: '%env(string:EMSCH_PREVIEW_INDEX)%'
+           backend: '%env(string:EMSCH_BACKEND_URL)%'
         live:
            regex: '/.*/'
            index: '%env(string:EMSCH_LIVE_INDEX)%'
+
     elasticms:
         website:
-            #cluster: '%env(json:EMSCH_ELASTICSEARCH_CLUSTER)%'
             hosts: '%env(json:EMSCH_ELASTICSEARCH_CLUSTER)%'
             index_prefix: '%env(string:EMSCH_INSTANCE_ID)%'
             translation_type: '%env(string:EMSCH_TRANSLATION_TYPE)%'
-            templates:
-                template: {name: 'key', code: 'body'}
-#                routing: {name: 'content_type', code: 'template'}
-    clear_cache: website
+            templates: '%env(json:EMSCH_TEMPLATES)%'
+            routes: '%env(json:EMSCH_ROUTES)%'
+
+    routing:
+        client_request: website
+        redirect_type: 'redirect'
+        relative_paths: ~

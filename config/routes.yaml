@@ -1,3 +1,8 @@
-ems_routes:
-    resource: 'config/ems_routes.yaml'
-    type: ems
+language_selection:
+    resource: '@EMSClientHelperBundle/Resources/config/routing/language_selection.xml'
+
+#api:
+#    resource: '@EMSClientHelperBundle/Resources/config/routing/api.xml'
+
+files:
+    resource: '@EMSCommonBundle/Resources/config/routing/file.xml'
