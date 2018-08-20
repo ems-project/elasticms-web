@@ -26,6 +26,14 @@ ems_client_helper:
             templates: '%env(json:EMSCH_TEMPLATES)%'
             routes: '%env(json:EMSCH_ROUTES)%'
 
+    language_selection:
+        client_request: website
+        template: '@EMSCH/template/language_select.html.twig'
+        option_type: option
+        supported_locale:
+            - {locale: 'nl', logo_path: 'apple-touch-icon.png'}
+            - {locale: 'fr', logo_path: 'apple-touch-icon.png'}
+
     routing:
         client_request: website
         redirect_type: 'redirect'
