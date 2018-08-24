@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d86ce71631d77225ef3123c5b9c93f94",
+    "content-hash": "b2a99732258568053816030f90eb529b",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -132,16 +132,16 @@
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.7.1",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "b3217d58609e9c8e661cd41357a54d926c4a2a1a"
+                "reference": "d768d58baee9a4862ca783840eca1b9add7a7f57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/b3217d58609e9c8e661cd41357a54d926c4a2a1a",
-                "reference": "b3217d58609e9c8e661cd41357a54d926c4a2a1a",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/d768d58baee9a4862ca783840eca1b9add7a7f57",
+                "reference": "d768d58baee9a4862ca783840eca1b9add7a7f57",
                 "shasum": ""
             },
             "require": {
@@ -152,8 +152,9 @@
             },
             "require-dev": {
                 "alcaeus/mongo-php-adapter": "^1.1",
+                "doctrine/coding-standard": "^4.0",
                 "mongodb/mongodb": "^1.1",
-                "phpunit/phpunit": "^5.7",
+                "phpunit/phpunit": "^7.0",
                 "predis/predis": "~1.0"
             },
             "suggest": {
@@ -162,7 +163,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.7.x-dev"
+                    "dev-master": "1.8.x-dev"
                 }
             },
             "autoload": {
@@ -197,12 +198,12 @@
                 }
             ],
             "description": "Caching library offering an object-oriented API for many cache backends",
-            "homepage": "http://www.doctrine-project.org",
+            "homepage": "https://www.doctrine-project.org",
             "keywords": [
                 "cache",
                 "caching"
             ],
-            "time": "2017-08-25T07:02:50+00:00"
+            "time": "2018-08-21T18:01:43+00:00"
         },
         {
             "name": "doctrine/collections",
@@ -1284,16 +1285,16 @@
         },
         {
             "name": "elasticms/client-helper-bundle",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSClientHelperBundle.git",
-                "reference": "78d56eedd643319691baffb2598d27d8e2e54737"
+                "reference": "3e486ac15b16fc1753c00be12315ccefa5c5bc4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/78d56eedd643319691baffb2598d27d8e2e54737",
-                "reference": "78d56eedd643319691baffb2598d27d8e2e54737",
+                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/3e486ac15b16fc1753c00be12315ccefa5c5bc4c",
+                "reference": "3e486ac15b16fc1753c00be12315ccefa5c5bc4c",
                 "shasum": ""
             },
             "require": {
@@ -1340,7 +1341,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2018-08-17T11:33:33+00:00"
+            "time": "2018-08-24T08:21:42+00:00"
         },
         {
             "name": "elasticms/common-bundle",
@@ -3382,16 +3383,16 @@
         },
         {
             "name": "symfony/flex",
-            "version": "v1.0.89",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/flex.git",
-                "reference": "26be754f42c3c3f21139af2bdd74118ef8f82757"
+                "reference": "d6f5fed47ddad2eb25d5cc19316692203a2898eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/flex/zipball/26be754f42c3c3f21139af2bdd74118ef8f82757",
-                "reference": "26be754f42c3c3f21139af2bdd74118ef8f82757",
+                "url": "https://api.github.com/repos/symfony/flex/zipball/d6f5fed47ddad2eb25d5cc19316692203a2898eb",
+                "reference": "d6f5fed47ddad2eb25d5cc19316692203a2898eb",
                 "shasum": ""
             },
             "require": {
@@ -3405,7 +3406,7 @@
             "type": "composer-plugin",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.1-dev"
                 },
                 "class": "Symfony\\Flex\\Flex"
             },
@@ -3425,7 +3426,7 @@
                 }
             ],
             "description": "Composer plugin for Symfony",
-            "time": "2018-07-29T16:20:30+00:00"
+            "time": "2018-08-21T07:51:18+00:00"
         },
         {
             "name": "symfony/form",
