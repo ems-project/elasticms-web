@@ -1,14 +1,18 @@
 parameters:
     env(EMSCH_INSTANCE_ID): website_
     env(EMSCH_ELASTICSEARCH_CLUSTER): '["http://localhost:9200"]'
+    env(EMSCH_LOCALES): '["fr","nl"]'
+
     env(EMSCH_LIVE_INDEX): live
     env(EMSCH_PREVIEW_INDEX): preview
     env(EMSCH_PREVIEW_REGEX): '/preview/'
+
     env(EMSCH_TRANSLATION_TYPE): label
-    env(EMSCH_TEMPLATES): '{"template": {"name": "key","code": "body"}, "routing": {"name": "content_type","code": "body"}}'
+    env(EMSCH_TEMPLATES): '{}'
     env(EMSCH_ROUTES): '{}'
 
 ems_client_helper:
+    locales: '%env(json:EMSCH_LOCALES)%'
     request_environments:
         preview:
            regex: '%env(string:EMSCH_PREVIEW_REGEX)%'
@@ -17,7 +21,6 @@ ems_client_helper:
         live:
            regex: '/.*/'
            index: '%env(string:EMSCH_LIVE_INDEX)%'
-
     elasticms:
         website:
             hosts: '%env(json:EMSCH_ELASTICSEARCH_CLUSTER)%'
@@ -26,15 +29,7 @@ ems_client_helper:
             templates: '%env(json:EMSCH_TEMPLATES)%'
             routes: '%env(json:EMSCH_ROUTES)%'
 
-    language_selection:
-        client_request: website
-        template: '@EMSCH/template/language_select.html.twig'
-        option_type: option
-        supported_locale:
-            - {locale: 'nl', logo_path: 'apple-touch-icon.png'}
-            - {locale: 'fr', logo_path: 'apple-touch-icon.png'}
-
+    template_language: '%env(string:EMSCH_TEMPLATE_LANGUAGE)%'
     routing:
         client_request: website
-        redirect_type: 'redirect'
-        relative_paths: ~
+        redirect_type: '%env(string:EMSCH_REDIRECT_TYPE)%'
