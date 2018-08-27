@@ -4,4 +4,3 @@ services:
         arguments:
             - '%storage_path%'
             - '%env(string:EMSCH_BACKEND_URL)%'
-            - '%env(string:EMSCH_API_KEY)%'
