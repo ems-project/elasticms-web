@@ -2,25 +2,17 @@ parameters:
     env(EMSCH_INSTANCE_ID): website_
     env(EMSCH_ELASTICSEARCH_CLUSTER): '["http://localhost:9200"]'
     env(EMSCH_LOCALES): '["fr","nl"]'
-
-    env(EMSCH_LIVE_INDEX): live
-    env(EMSCH_PREVIEW_INDEX): preview
-    env(EMSCH_PREVIEW_REGEX): '/preview/'
+    env(EMSCH_ENVS): '{}'
 
     env(EMSCH_TRANSLATION_TYPE): label
     env(EMSCH_TEMPLATES): '{}'
     env(EMSCH_ROUTES): '{}'
 
+    env(EMSCH_REDIRECT_TYPE): ~
+
 ems_client_helper:
     locales: '%env(json:EMSCH_LOCALES)%'
-    request_environments:
-        preview:
-           regex: '%env(string:EMSCH_PREVIEW_REGEX)%'
-           index: '%env(string:EMSCH_PREVIEW_INDEX)%'
-           backend: '%env(string:EMSCH_BACKEND_URL)%'
-        live:
-           regex: '/.*/'
-           index: '%env(string:EMSCH_LIVE_INDEX)%'
+    request_environments: '%env(json:EMSCH_ENVS)%'
     elasticms:
         website:
             hosts: '%env(json:EMSCH_ELASTICSEARCH_CLUSTER)%'
