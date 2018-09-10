@@ -2,5 +2,5 @@ services:
     EMS\CommonBundle\Storage\Adapter\HttpAdapter:
         tags: [ems_common.storage.adapter]
         arguments:
-            - '%storage_path%'
+            - '%env(STORAGE_PATH)%'
             - '%env(string:EMSCH_BACKEND_URL)%'

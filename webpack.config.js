@@ -2,9 +2,9 @@ var Encore = require('@symfony/webpack-encore');
 var path = require('path');
 
 Encore
-    .setOutputPath('public/build/')
-    .setPublicPath('/build')
-    .setManifestKeyPrefix('build/')
+    .setOutputPath('public/bundles/emsch_assets')
+    .setPublicPath('/bundles/emsch_assets')
+    .setManifestKeyPrefix('bundles/emsch_assets/')
 
     .cleanupOutputBeforeBuild()
     .autoProvidejQuery()
