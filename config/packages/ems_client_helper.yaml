@@ -1,6 +1,7 @@
 parameters:
     env(EMSCH_INSTANCE_ID): website_
     env(EMSCH_ELASTICSEARCH_CLUSTER): '["http://localhost:9200"]'
+    env(EMSCH_BACKEND_URL): ~
     env(EMSCH_LOCALES): '["fr","nl"]'
     env(EMSCH_ENVS): '{}'
 
@@ -8,11 +9,18 @@ parameters:
     env(EMSCH_TEMPLATES): '{}'
     env(EMSCH_ROUTES): '{}'
 
+    env(EMSCH_TEMPLATE_LANGUAGE): ~
+    env(EMSCH_TEMPLATE_SEARCH):   ~
+    env(EMSCH_TEMPLATE_ERROR):    ~
+
     env(EMSCH_REDIRECT_TYPE): ~
+
+    env(EMSCH_DUMP_ASSETS): true
 
 ems_client_helper:
     locales: '%env(json:EMSCH_LOCALES)%'
     request_environments: '%env(json:EMSCH_ENVS)%'
+    dump_assets: '%env(bool:EMSCH_DUMP_ASSETS)%'
     elasticms:
         website:
             hosts: '%env(json:EMSCH_ELASTICSEARCH_CLUSTER)%'
@@ -21,7 +29,10 @@ ems_client_helper:
             templates: '%env(json:EMSCH_TEMPLATES)%'
             routes: '%env(json:EMSCH_ROUTES)%'
 
-    template_language: '%env(string:EMSCH_TEMPLATE_LANGUAGE)%'
+    templates:
+        language: '%env(string:EMSCH_TEMPLATE_LANGUAGE)%'
+        search:   '%env(string:EMSCH_TEMPLATE_SEARCH)%'
+        error:    '%env(string:EMSCH_TEMPLATE_ERROR)%'
     routing:
         client_request: website
         redirect_type: '%env(string:EMSCH_REDIRECT_TYPE)%'

@@ -9,5 +9,5 @@ services:
         public: false
 
     EMS\CommonBundle\Storage\Adapter\FileAdapter:
-        arguments: ['%storage_path%']
+        arguments: ['%env(STORAGE_PATH)%']
         tags: [ems_common.storage.adapter]
