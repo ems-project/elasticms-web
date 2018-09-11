@@ -1,6 +1,6 @@
 parameters:
     locale: '%env(DEFAULT_LOCAL)%'
-    storage_path: '%kernel.project_dir%/var/assets'
+    env(STORAGE_PATH): '../var/assets'
 
 services:
     _defaults:

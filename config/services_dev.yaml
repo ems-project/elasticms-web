@@ -1,6 +1,11 @@
+parameters:
+    env(EMSCH_BACKEND_URL): ~
+    env(STORAGE_PATH): '../var/assets'
+
+
 services:
     EMS\CommonBundle\Storage\Adapter\HttpAdapter:
         tags: [ems_common.storage.adapter]
         arguments:
             - '%env(STORAGE_PATH)%'
-            - '%env(string:EMSCH_BACKEND_URL)%'
+            - '%env(EMSCH_BACKEND_URL)%'
