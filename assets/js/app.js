@@ -14,3 +14,7 @@ import {} from 'emsch';
 $(document).ready(function() {
     console.log('Hello world, welcome to elasticms website skeleton');
 });
+
+
+import hashcash from './hashcash';
+hashcash();
