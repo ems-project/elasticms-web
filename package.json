@@ -6,7 +6,9 @@
         "node-sass": "^4.9.2",
         "popper.js": "^1.14.3",
         "postcss-loader": "^3.0.0",
-        "sass-loader": "^7.0.3"
+        "sass-loader": "^7.0.3",
+        "hashcash-token": "^1.0.0",
+        "moment": "^2.22.2"
     },
     "browserslist": [
         "last 2 versions",

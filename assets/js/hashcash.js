@@ -1,3 +1,6 @@
+const hashcashToken = require('hashcash-token');
+const moment = require('moment');
+const DELIMITER = "|"
 /**
  *
  */
@@ -25,17 +28,26 @@ export default function hashcash() {
     const forms = document.querySelectorAll('form[data-hashcash]');
     for (const form of forms) {
         // console.log(form);
+        const target = form.getAttribute('data-hashcash');
         form.addEventListener('submit', function (e) {
             e.preventDefault();
             // e.target.style.display = "none";
 
             const req = new XMLHttpRequest();
-            // console.log(hasha('unicorn'));
+
+            const data = moment().format('YYMMDD')+DELIMITER+target;
+
+            var token = hashcashToken.generate({
+                    difficulty: 16384,
+                    data: data
+            });
+
+
 
             req.open('POST', e.target.getAttribute('action'), true);
             req.setRequestHeader('Content-type', 'application/json');
             req.overrideMimeType("application/json");
-            req.setRequestHeader('X-Hashcash', '1:20:060408:destinataire@example.org::1QTjaYd7niiQA/sc:ePa');
+            req.setRequestHeader('X-Hashcash', [token.difficulty, token.data, token.nonce].join('|'));
 
             req.addEventListener("progress", function(evt) {
                 console.log('progress');
