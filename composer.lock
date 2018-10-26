@@ -1285,16 +1285,16 @@
         },
         {
             "name": "elasticms/client-helper-bundle",
-            "version": "3.0.6",
+            "version": "3.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSClientHelperBundle.git",
-                "reference": "781c097dc36b02ff2e6f1b7c1ddf33590cdf5f28"
+                "reference": "8cbb881c421a085ddca381c858bf70a7b0af1c3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/781c097dc36b02ff2e6f1b7c1ddf33590cdf5f28",
-                "reference": "781c097dc36b02ff2e6f1b7c1ddf33590cdf5f28",
+                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/8cbb881c421a085ddca381c858bf70a7b0af1c3b",
+                "reference": "8cbb881c421a085ddca381c858bf70a7b0af1c3b",
                 "shasum": ""
             },
             "require": {
@@ -1341,20 +1341,20 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2018-09-07T09:31:36+00:00"
+            "time": "2018-09-12T15:10:53+00:00"
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.6",
+            "version": "1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "1508aee0f8f3aeaf022be9b2d123f1b960d57aaa"
+                "reference": "e65b9305e631a5dd23263c70ff4aa15c63b38793"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/1508aee0f8f3aeaf022be9b2d123f1b960d57aaa",
-                "reference": "1508aee0f8f3aeaf022be9b2d123f1b960d57aaa",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/e65b9305e631a5dd23263c70ff4aa15c63b38793",
+                "reference": "e65b9305e631a5dd23263c70ff4aa15c63b38793",
                 "shasum": ""
             },
             "require": {
@@ -1390,7 +1390,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2018-09-06T15:05:18+00:00"
+            "time": "2018-10-12T12:10:52+00:00"
         },
         {
             "name": "elasticsearch/elasticsearch",
