@@ -12,6 +12,7 @@ parameters:
     env(EMSCH_SEARCH_TYPES):    '[]'
     env(EMSCH_SEARCH_FACETS):   '[]'
     env(EMSCH_SEARCH_SYNONYMS): '[]'
+    env(EMSCH_SEARCH_FIELDS):   '[]'
 
     env(EMSCH_TEMPLATE_LANGUAGE): ~
     env(EMSCH_TEMPLATE_SEARCH):   ~
