@@ -5,6 +5,7 @@ parameters:
     env(EMSCH_LOCALES): '["fr","nl"]'
     env(EMSCH_ENVS): '{}'
 
+    env(EMSCH_ROUTE_TYPE):       ~
     env(EMSCH_TRANSLATION_TYPE): label
     env(EMSCH_TEMPLATES): '{}'
     env(EMSCH_ROUTES): '{}'
@@ -17,11 +18,11 @@ parameters:
     env(EMSCH_TEMPLATE_LANGUAGE): ~
     env(EMSCH_TEMPLATE_SEARCH):   ~
     env(EMSCH_TEMPLATE_ERROR):    ~
+    env(EMSCH_TEMPLATE_EMS_LINK): '@@EMSCH/template/{type}.ems_link.twig'
 
     env(EMSCH_REDIRECT_TYPE): ~
 
     env(EMSCH_DUMP_ASSETS): true
-
 ems_client_helper:
     locales: '%env(json:EMSCH_LOCALES)%'
     request_environments: '%env(json:EMSCH_ENVS)%'
@@ -30,9 +31,9 @@ ems_client_helper:
         website:
             hosts: '%env(json:EMSCH_ELASTICSEARCH_CLUSTER)%'
             index_prefix: '%env(string:EMSCH_INSTANCE_ID)%'
+            route_type: '%env(string:EMSCH_ROUTE_TYPE)%'
             translation_type: '%env(string:EMSCH_TRANSLATION_TYPE)%'
             templates: '%env(json:EMSCH_TEMPLATES)%'
-            routes: '%env(json:EMSCH_ROUTES)%'
             search:
                 types:         '%env(json:EMSCH_SEARCH_TYPES)%'
                 facets:        '%env(json:EMSCH_SEARCH_FACETS)%'
@@ -43,6 +44,8 @@ ems_client_helper:
         language: '%env(string:EMSCH_TEMPLATE_LANGUAGE)%'
         search:   '%env(string:EMSCH_TEMPLATE_SEARCH)%'
         error:    '%env(string:EMSCH_TEMPLATE_ERROR)%'
+        ems_link:  '%env(string:EMSCH_TEMPLATE_EMS_LINK)%'
     routing:
         client_request: website
+        routes: '%env(json:EMSCH_ROUTES)%'
         redirect_type: '%env(string:EMSCH_REDIRECT_TYPE)%'
