@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "b2a99732258568053816030f90eb529b",
@@ -1285,16 +1285,16 @@
         },
         {
             "name": "elasticms/client-helper-bundle",
-            "version": "3.0.8",
+            "version": "3.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSClientHelperBundle.git",
-                "reference": "a2c7be93e7fe9732cea3d01c5f5119ad157430b8"
+                "reference": "1a604eb912abe959fe7d34f5f5e6c010b85e9e2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/a2c7be93e7fe9732cea3d01c5f5119ad157430b8",
-                "reference": "a2c7be93e7fe9732cea3d01c5f5119ad157430b8",
+                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/1a604eb912abe959fe7d34f5f5e6c010b85e9e2c",
+                "reference": "1a604eb912abe959fe7d34f5f5e6c010b85e9e2c",
                 "shasum": ""
             },
             "require": {
@@ -1341,7 +1341,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2018-11-05T10:30:13+00:00"
+            "time": "2018-12-14T22:35:45+00:00"
         },
         {
             "name": "elasticms/common-bundle",
