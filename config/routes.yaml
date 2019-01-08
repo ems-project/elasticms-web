@@ -1,2 +1,5 @@
 files:
     resource: '@EMSCommonBundle/Resources/config/routing/file.xml'
+
+helper:
+    resource: '@EMSClientHelperBundle/Resources/config/routing/helper.xml'
