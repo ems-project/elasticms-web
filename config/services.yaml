@@ -8,6 +8,13 @@ services:
         autoconfigure: true
         public: false
 
-    EMS\CommonBundle\Storage\Adapter\FileAdapter:
-        arguments: ['%env(STORAGE_PATH)%']
-        tags: [ems_common.storage.adapter]
+    app.ems.cache:
+        class: EMS\CommonBundle\Storage\Adapter\FileAdapter
+        arguments: ['%env(string:STORAGE_PATH)%/cache']
+        tags:
+            - { name: ems_common.storage.cache_adapter }
+    app.ems.filesystem:
+        class: EMS\CommonBundle\Storage\Adapter\FileAdapter
+        arguments: ['%env(string:STORAGE_PATH)%']
+        tags:
+            - { name: ems_common.storage.adapter }

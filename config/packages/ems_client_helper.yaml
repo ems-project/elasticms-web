@@ -7,6 +7,7 @@ parameters:
 
     env(EMSCH_ROUTE_TYPE):       ~
     env(EMSCH_TRANSLATION_TYPE): label
+    env(EMSCH_ASSET_CONFIG_TYPE): ~
     env(EMSCH_TEMPLATES): '{}'
     env(EMSCH_ROUTES): '{}'
 
@@ -33,6 +34,7 @@ ems_client_helper:
             index_prefix: '%env(string:EMSCH_INSTANCE_ID)%'
             route_type: '%env(string:EMSCH_ROUTE_TYPE)%'
             translation_type: '%env(string:EMSCH_TRANSLATION_TYPE)%'
+            asset_config_type: '%env(string:EMSCH_ASSET_CONFIG_TYPE)%'
             templates: '%env(json:EMSCH_TEMPLATES)%'
             search:
                 types:         '%env(json:EMSCH_SEARCH_TYPES)%'
