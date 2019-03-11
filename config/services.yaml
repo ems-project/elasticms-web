@@ -9,12 +9,12 @@ services:
         public: false
 
     app.ems.cache:
-        class: EMS\CommonBundle\Storage\Adapter\FileAdapter
+        class: EMS\CommonBundle\Storage\Service\FileSystemStorage
         arguments: ['%env(string:STORAGE_PATH)%/cache']
         tags:
             - { name: ems_common.storage.cache_adapter }
     app.ems.filesystem:
-        class: EMS\CommonBundle\Storage\Adapter\FileAdapter
+        class: EMS\CommonBundle\Storage\Service\FileSystemStorage
         arguments: ['%env(string:STORAGE_PATH)%']
         tags:
             - { name: ems_common.storage.adapter }
