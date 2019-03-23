@@ -1,11 +1,93 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "content-hash": "2121ddf96ba9a19a878c0c1c994037e0",
     "packages": [
+        {
+            "name": "aws/aws-sdk-php",
+            "version": "3.90.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aws/aws-sdk-php.git",
+                "reference": "bccb5b3509ed7517e50a75bba6b19ac4506aae70"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/bccb5b3509ed7517e50a75bba6b19ac4506aae70",
+                "reference": "bccb5b3509ed7517e50a75bba6b19ac4506aae70",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-pcre": "*",
+                "ext-simplexml": "*",
+                "guzzlehttp/guzzle": "^5.3.3|^6.2.1",
+                "guzzlehttp/promises": "~1.0",
+                "guzzlehttp/psr7": "^1.4.1",
+                "mtdowling/jmespath.php": "~2.2",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "andrewsville/php-token-reflection": "^1.4",
+                "aws/aws-php-sns-message-validator": "~1.0",
+                "behat/behat": "~3.0",
+                "doctrine/cache": "~1.4",
+                "ext-dom": "*",
+                "ext-openssl": "*",
+                "ext-pcntl": "*",
+                "ext-sockets": "*",
+                "nette/neon": "^2.3",
+                "phpunit/phpunit": "^4.8.35|^5.4.3",
+                "psr/cache": "^1.0"
+            },
+            "suggest": {
+                "aws/aws-php-sns-message-validator": "To validate incoming SNS notifications",
+                "doctrine/cache": "To use the DoctrineCacheAdapter",
+                "ext-curl": "To send requests using cURL",
+                "ext-openssl": "Allows working with CloudFront private distributions and verifying received SNS messages",
+                "ext-sockets": "To use client-side monitoring"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Aws\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Amazon Web Services",
+                    "homepage": "http://aws.amazon.com"
+                }
+            ],
+            "description": "AWS SDK for PHP - Use Amazon Web Services in your PHP project",
+            "homepage": "http://aws.amazon.com/sdkforphp",
+            "keywords": [
+                "amazon",
+                "aws",
+                "cloud",
+                "dynamodb",
+                "ec2",
+                "glacier",
+                "s3",
+                "sdk"
+            ],
+            "time": "2019-03-22T19:48:31+00:00"
+        },
         {
             "name": "composer/ca-bundle",
             "version": "1.1.2",
@@ -1285,29 +1367,36 @@
         },
         {
             "name": "elasticms/client-helper-bundle",
-            "version": "3.0.17",
+            "version": "3.0.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSClientHelperBundle.git",
-                "reference": "b91242f811109687e400737ccb5752ea75271043"
+                "reference": "b2e7ee3bab01290a2c55e98d7a2c2090a4fab88a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/b91242f811109687e400737ccb5752ea75271043",
-                "reference": "b91242f811109687e400737ccb5752ea75271043",
+                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/b2e7ee3bab01290a2c55e98d7a2c2090a4fab88a",
+                "reference": "b2e7ee3bab01290a2c55e98d7a2c2090a4fab88a",
                 "shasum": ""
             },
             "require": {
                 "composer/ca-bundle": "^1.1",
-                "elasticms/common-bundle": "^1.6.3",
-                "php": "^7.1.3",
+                "elasticms/common-bundle": "^1.6",
+                "php": ">=7.1",
                 "symfony-cmf/routing": "^2.1.0",
+                "symfony/config": "^4.1",
                 "symfony/framework-bundle": "~3.0|~4.0",
+                "symfony/options-resolver": "^4.1",
+                "symfony/property-access": "^4.1",
+                "symfony/translation": "^4.1",
                 "twig/twig": "~2.4"
             },
             "require-dev": {
                 "mockery/mockery": "^0.9.9",
-                "phpunit/phpunit": "^5.7"
+                "phpstan/phpstan": "^0.11.3",
+                "phpunit/phpunit": "^5.7",
+                "squizlabs/php_codesniffer": "3.*",
+                "symfony/phpunit-bridge": "^4.1"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -1320,7 +1409,7 @@
                     "EMS\\ClientHelperBundle\\": ""
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "tests/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1335,32 +1424,55 @@
                 {
                     "name": "David Mattei",
                     "email": "david.mattei@smals.be"
+                },
+                {
+                    "name": "David Meert",
+                    "email": "david.meert@smals.be"
                 }
             ],
             "description": "An elasticms extension for client helper functions (Graphical frontend, API, ... )",
             "keywords": [
                 "elasticms"
             ],
-            "time": "2019-01-11T13:25:35+00:00"
+            "time": "2019-03-22T10:38:07+00:00"
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.6.5",
+            "version": "1.6.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "1247023f9fdc5daa7cbba1f8a6ca50f872a4624d"
+                "reference": "41647caf212ad6de515105bff284a6b072cf92e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/1247023f9fdc5daa7cbba1f8a6ca50f872a4624d",
-                "reference": "1247023f9fdc5daa7cbba1f8a6ca50f872a4624d",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/41647caf212ad6de515105bff284a6b072cf92e9",
+                "reference": "41647caf212ad6de515105bff284a6b072cf92e9",
                 "shasum": ""
             },
             "require": {
+                "aws/aws-sdk-php": "^3.87",
+                "doctrine/doctrine-bundle": "^1.9",
+                "doctrine/orm": "^2.6",
                 "elasticsearch/elasticsearch": "^5.3",
+                "ext-gd": "^7.1",
+                "ext-iconv": "^7.1",
+                "ext-mbstring": "*",
                 "guzzlehttp/guzzle": "^6.3",
-                "php": ">=7.1"
+                "php": ">=7.1",
+                "symfony/framework-bundle": "^4.1",
+                "symfony/http-foundation": "^4.1",
+                "symfony/options-resolver": "^4.1",
+                "symfony/routing": "^4.1",
+                "symfony/stopwatch": "^4.1",
+                "twig/twig": "^2.4"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.9",
+                "phpstan/phpstan": "^0.11.4",
+                "phpunit/phpunit": "^5.7",
+                "squizlabs/php_codesniffer": "3.*",
+                "symfony/phpunit-bridge": "^4.1"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -1373,7 +1485,7 @@
                     "EMS\\CommonBundle\\": ""
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "tests/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1384,13 +1496,17 @@
                 {
                     "name": "David Mattei",
                     "email": "david.mattei@smals.be"
+                },
+                {
+                    "name": "David Meert",
+                    "email": "david.meert@smals.be"
                 }
             ],
             "description": "All code shared between the EMS client helper and the EMS core",
             "keywords": [
                 "elasticms"
             ],
-            "time": "2019-01-11T13:36:52+00:00"
+            "time": "2019-03-22T23:40:17+00:00"
         },
         {
             "name": "elasticsearch/elasticsearch",
@@ -1910,6 +2026,61 @@
                 "psr-3"
             ],
             "time": "2017-06-19T01:22:40+00:00"
+        },
+        {
+            "name": "mtdowling/jmespath.php",
+            "version": "2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jmespath/jmespath.php.git",
+                "reference": "adcc9531682cf87dfda21e1fd5d0e7a41d292fac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jmespath/jmespath.php/zipball/adcc9531682cf87dfda21e1fd5d0e7a41d292fac",
+                "reference": "adcc9531682cf87dfda21e1fd5d0e7a41d292fac",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "bin": [
+                "bin/jp.php"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JmesPath\\": "src/"
+                },
+                "files": [
+                    "src/JmesPath.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Declaratively specify how to extract elements from a JSON document",
+            "keywords": [
+                "json",
+                "jsonpath"
+            ],
+            "time": "2016-12-03T22:08:25+00:00"
         },
         {
             "name": "ocramius/package-versions",
@@ -4823,6 +4994,55 @@
             "time": "2017-12-12T01:48:53+00:00"
         },
         {
+            "name": "symfony/stopwatch",
+            "version": "v4.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/stopwatch.git",
+                "reference": "966c982df3cca41324253dc0c7ffe76b6076b705"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/966c982df3cca41324253dc0c7ffe76b6076b705",
+                "reference": "966c982df3cca41324253dc0c7ffe76b6076b705",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Stopwatch\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Stopwatch Component",
+            "homepage": "https://symfony.com",
+            "time": "2018-07-26T11:00:49+00:00"
+        },
+        {
             "name": "symfony/swiftmailer-bundle",
             "version": "v3.2.2",
             "source": {
@@ -6279,55 +6499,6 @@
             ],
             "description": "A pack for the Symfony web profiler",
             "time": "2017-12-12T01:48:24+00:00"
-        },
-        {
-            "name": "symfony/stopwatch",
-            "version": "v4.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/stopwatch.git",
-                "reference": "966c982df3cca41324253dc0c7ffe76b6076b705"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/966c982df3cca41324253dc0c7ffe76b6076b705",
-                "reference": "966c982df3cca41324253dc0c7ffe76b6076b705",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\Stopwatch\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony Stopwatch Component",
-            "homepage": "https://symfony.com",
-            "time": "2018-07-26T11:00:49+00:00"
         },
         {
             "name": "symfony/test-pack",

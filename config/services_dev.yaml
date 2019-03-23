@@ -4,8 +4,8 @@ parameters:
 
 
 services:
-    EMS\CommonBundle\Storage\Service\HttpStorage:
-        tags: [ems_common.storage.adapter]
-        arguments:
-            - '%env(STORAGE_PATH)%'
-            - '%env(EMSCH_BACKEND_URL)%'
+#    EMS\CommonBundle\Storage\Service\HttpStorage:
+#        tags: [ems_common.storage.adapter]
+#        arguments:
+#            - '%env(STORAGE_PATH)%'
+#            - '%env(EMSCH_BACKEND_URL)%'
