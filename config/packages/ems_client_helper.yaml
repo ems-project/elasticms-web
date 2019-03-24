@@ -22,15 +22,12 @@ parameters:
     env(EMSCH_TEMPLATE_EMS_LINK): '@@EMSCH/template/{type}.ems_link.twig'
 
     env(EMSCH_REDIRECT_TYPE): ~
-    env(STORAGE_PATH): '../var/assets'
 
     env(EMSCH_DUMP_ASSETS): true
 ems_client_helper:
     locales: '%env(json:EMSCH_LOCALES)%'
     request_environments: '%env(json:EMSCH_ENVS)%'
     dump_assets: '%env(bool:EMSCH_DUMP_ASSETS)%'
-    storage_path: '%env(string:STORAGE_PATH)%'
-    backend_url: '%env(string:EMSCH_BACKEND_URL)%'
     elasticms:
         website:
             hosts: '%env(json:EMSCH_ELASTICSEARCH_CLUSTER)%'
