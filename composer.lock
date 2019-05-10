@@ -1367,21 +1367,21 @@
         },
         {
             "name": "elasticms/client-helper-bundle",
-            "version": "3.0.28",
+            "version": "3.0.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSClientHelperBundle.git",
-                "reference": "861990ccd7e9bff6b33f71a54a82424f38d208e5"
+                "reference": "a06d03512ce2afc34caad020dbb9aa992cf8db4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/861990ccd7e9bff6b33f71a54a82424f38d208e5",
-                "reference": "861990ccd7e9bff6b33f71a54a82424f38d208e5",
+                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/a06d03512ce2afc34caad020dbb9aa992cf8db4b",
+                "reference": "a06d03512ce2afc34caad020dbb9aa992cf8db4b",
                 "shasum": ""
             },
             "require": {
                 "composer/ca-bundle": "^1.1",
-                "elasticms/common-bundle": "^1.6",
+                "elasticms/common-bundle": ">=1.6.17",
                 "php": ">=7.1",
                 "symfony-cmf/routing": "^2.1.0",
                 "symfony/config": "^4.1",
@@ -1434,20 +1434,20 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2019-04-25T15:33:41+00:00"
+            "time": "2019-05-10T09:51:15+00:00"
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.6.16",
+            "version": "1.6.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "994fce2f727ebf702d327ba4cfce53d3c75bcef5"
+                "reference": "402f731fda08b40d79a2a80a9e88e080121513ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/994fce2f727ebf702d327ba4cfce53d3c75bcef5",
-                "reference": "994fce2f727ebf702d327ba4cfce53d3c75bcef5",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/402f731fda08b40d79a2a80a9e88e080121513ac",
+                "reference": "402f731fda08b40d79a2a80a9e88e080121513ac",
                 "shasum": ""
             },
             "require": {
@@ -1506,7 +1506,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2019-03-26T06:33:12+00:00"
+            "time": "2019-05-10T08:28:35+00:00"
         },
         {
             "name": "elasticsearch/elasticsearch",
