@@ -1,20 +1,8 @@
 parameters:
     locale: '%env(DEFAULT_LOCAL)%'
-    env(STORAGE_PATH): '../var/assets'
 
 services:
     _defaults:
         autowire: true
         autoconfigure: true
         public: false
-
-    app.ems.cache:
-        class: EMS\CommonBundle\Storage\Service\FileSystemStorage
-        arguments: ['%env(string:STORAGE_PATH)%/cache']
-        tags:
-            - { name: ems_common.storage.cache_adapter }
-#    app.ems.filesystem:
-#        class: EMS\CommonBundle\Storage\Service\FileSystemStorage
-#        arguments: ['%env(string:STORAGE_PATH)%']
-#        tags:
-#            - { name: ems_common.storage.adapter }
