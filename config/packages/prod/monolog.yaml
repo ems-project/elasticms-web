@@ -7,6 +7,10 @@ monolog:
             excluded_404s:
                 # regex: exclude all 404 errors from the logs
                 - ^/
+        ems:
+            type: service
+            id: ems_common.elasticsearch.logger
+            channels: [app, php]
         nested:
             type: stream
             path: "%kernel.logs_dir%/%kernel.environment%.log"

@@ -1,5 +1,6 @@
 parameters:
     env(EMSCH_INSTANCE_ID): website_
+    env(EMSCH_LOG_INSTANCE_ID): website_
     env(EMSCH_ELASTICSEARCH_CLUSTER): '["http://localhost:9200"]'
     env(EMSCH_BACKEND_URL): ~
     env(EMSCH_LOCALES): '["fr","nl"]'
@@ -26,6 +27,9 @@ parameters:
     env(EMSCH_DUMP_ASSETS): true
 ems_client_helper:
     locales: '%env(json:EMSCH_LOCALES)%'
+    log:
+        hosts: '%env(json:EMSCH_ELASTICSEARCH_CLUSTER)%'
+        instance_id: '%env(string:EMSCH_LOG_INSTANCE_ID)%'
     request_environments: '%env(json:EMSCH_ENVS)%'
     dump_assets: '%env(bool:EMSCH_DUMP_ASSETS)%'
     elasticms:
