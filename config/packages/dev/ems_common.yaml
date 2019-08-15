@@ -1,2 +1,5 @@
+parameters:
+  env(EMS_PROFILER): true
+
 ems_common:
-    profiler: true
+  profiler: '%env(bool:EMS_PROFILER)%'
