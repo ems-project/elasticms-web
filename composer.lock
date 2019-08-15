@@ -1367,16 +1367,16 @@
         },
         {
             "name": "elasticms/client-helper-bundle",
-            "version": "3.0.29",
+            "version": "3.0.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSClientHelperBundle.git",
-                "reference": "a06d03512ce2afc34caad020dbb9aa992cf8db4b"
+                "reference": "e097397ecfd5dbde9374c6ad2ee7de21c675c5d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/a06d03512ce2afc34caad020dbb9aa992cf8db4b",
-                "reference": "a06d03512ce2afc34caad020dbb9aa992cf8db4b",
+                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/e097397ecfd5dbde9374c6ad2ee7de21c675c5d2",
+                "reference": "e097397ecfd5dbde9374c6ad2ee7de21c675c5d2",
                 "shasum": ""
             },
             "require": {
@@ -1434,20 +1434,20 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2019-05-10T09:51:15+00:00"
+            "time": "2019-08-07T15:02:01+00:00"
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.6.17",
+            "version": "1.6.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "402f731fda08b40d79a2a80a9e88e080121513ac"
+                "reference": "2347ed4ae269e5f1705eaaba94b39c1657d0a6e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/402f731fda08b40d79a2a80a9e88e080121513ac",
-                "reference": "402f731fda08b40d79a2a80a9e88e080121513ac",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/2347ed4ae269e5f1705eaaba94b39c1657d0a6e2",
+                "reference": "2347ed4ae269e5f1705eaaba94b39c1657d0a6e2",
                 "shasum": ""
             },
             "require": {
@@ -1457,14 +1457,18 @@
                 "elasticsearch/elasticsearch": "^5.3",
                 "ext-gd": "^7.1",
                 "ext-iconv": "^7.1",
+                "ext-json": "*",
                 "ext-mbstring": "*",
                 "guzzlehttp/guzzle": "^6.3",
                 "php": ">=7.1",
                 "symfony/framework-bundle": "^4.1",
                 "symfony/http-foundation": "^4.1",
+                "symfony/monolog-bundle": "^3.1",
                 "symfony/options-resolver": "^4.1",
                 "symfony/routing": "^4.1",
+                "symfony/security": "^4.1",
                 "symfony/stopwatch": "^4.1",
+                "symfony/translation": "^4.1",
                 "twig/twig": "^2.4"
             },
             "require-dev": {
@@ -1506,7 +1510,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2019-05-10T08:28:35+00:00"
+            "time": "2019-06-28T19:48:41+00:00"
         },
         {
             "name": "elasticsearch/elasticsearch",
@@ -5579,6 +5583,7 @@
                 "MIT"
             ],
             "description": "A pack for Symfony Encore",
+            "abandoned": "symfony/webpack-encore-bundle",
             "time": "2018-07-16T10:15:28+00:00"
         },
         {
