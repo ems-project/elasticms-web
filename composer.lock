@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6f39b14877f9e8a35bc8da43d1a4108a",
+    "content-hash": "283159ad598321967c428bf6ac7ddf57",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.109.7",
+            "version": "3.109.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "e8d3416f9b1e21029fc0eb63df075e325c690187"
+                "reference": "a7948d0de42185cb1af551713a0e99ad593fd962"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/e8d3416f9b1e21029fc0eb63df075e325c690187",
-                "reference": "e8d3416f9b1e21029fc0eb63df075e325c690187",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a7948d0de42185cb1af551713a0e99ad593fd962",
+                "reference": "a7948d0de42185cb1af551713a0e99ad593fd962",
                 "shasum": ""
             },
             "require": {
@@ -87,7 +87,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2019-08-19T18:08:45+00:00"
+            "time": "2019-08-20T18:42:25+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -3867,55 +3867,6 @@
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
             "time": "2019-06-28T13:16:30+00:00"
-        },
-        {
-            "name": "symfony/flex",
-            "version": "v1.4.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/flex.git",
-                "reference": "4467ab35c82edebac58fe58c22cea166a805eb1f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/flex/zipball/4467ab35c82edebac58fe58c22cea166a805eb1f",
-                "reference": "4467ab35c82edebac58fe58c22cea166a805eb1f",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0",
-                "php": "^7.0"
-            },
-            "require-dev": {
-                "composer/composer": "^1.0.2",
-                "symfony/dotenv": "^3.4|^4.0",
-                "symfony/phpunit-bridge": "^3.4.19|^4.1.8",
-                "symfony/process": "^2.7|^3.0|^4.0"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.4-dev"
-                },
-                "class": "Symfony\\Flex\\Flex"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Flex\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien.potencier@gmail.com"
-                }
-            ],
-            "description": "Composer plugin for Symfony",
-            "time": "2019-07-19T08:59:18+00:00"
         },
         {
             "name": "symfony/form",
