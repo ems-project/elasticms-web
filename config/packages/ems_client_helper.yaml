@@ -26,7 +26,14 @@ parameters:
     env(EMSCH_REDIRECT_TYPE): ~
 
     env(EMSCH_DUMP_ASSETS): true
+
+    env(EMSCH_BACKEND_URL): ~
+    env(EMSCH_BACKEND_API_KEY): ~
 ems_client_helper:
+    api:
+        backend:
+            url: '%env(string:EMSCH_BACKEND_URL)%'
+            key: '%env(string:EMSCH_BACKEND_API_KEY)%'
     locales: '%env(json:EMSCH_LOCALES)%'
     log:
         hosts: '%env(json:EMSCH_ELASTICSEARCH_CLUSTER)%'
@@ -36,6 +43,7 @@ ems_client_helper:
     dump_assets: '%env(bool:EMSCH_DUMP_ASSETS)%'
     elasticms:
         website:
+            api: {"enable": true, "name": "backend"}
             hosts: '%env(json:EMSCH_ELASTICSEARCH_CLUSTER)%'
             index_prefix: '%env(string:EMSCH_INSTANCE_ID)%'
             route_type: '%env(string:EMSCH_ROUTE_TYPE)%'

@@ -16,4 +16,6 @@ return [
     Symfony\Bundle\WebServerBundle\WebServerBundle::class => ['dev' => true],
     EMS\ClientHelperBundle\EMSClientHelperBundle::class => ['all' => true],
     EMS\CommonBundle\EMSCommonBundle::class => ['all' => true],
+    EMS\FormBundle\EMSFormBundle::class => ['all' => true],
+    EMS\SubmissionBundle\EMSSubmissionBundle::class => ['all' => true],
 ];
