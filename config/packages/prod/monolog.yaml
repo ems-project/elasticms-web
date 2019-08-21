@@ -16,9 +16,6 @@ monolog:
 #            path: "%kernel.logs_dir%/%kernel.environment%.log"
             path: "php://stderr"
             level: notice
-            excluded_404s:
-                # regex: exclude all 404 errors from the logs
-                - ^/
         console:
             type:   console
             process_psr_3_messages: false
