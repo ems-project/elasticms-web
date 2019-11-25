@@ -7,6 +7,10 @@ Encore
     .setOutputPath('public/bundles/emsch_assets')
     .setPublicPath('/bundles/emsch_assets')
     .setManifestKeyPrefix('bundles/emsch_assets/')
+    .configureUrlLoader({
+        fonts: { limit: 4096, publicPath: '../' },
+        images: { limit: 4096, publicPath: '../' }
+    })
 
     .cleanupOutputBeforeBuild()
     .autoProvidejQuery()
@@ -28,7 +32,7 @@ Encore
     ]))
 ;
 
-var config = Encore.getWebpackConfig();
+let config = Encore.getWebpackConfig();
 config.resolve.alias.emsch = path.resolve(__dirname, 'vendor/elasticms/client-helper-bundle/Resources/assets/AdminMenu/app.js');
 
 //disable amd loader
