@@ -2,37 +2,40 @@
     "type": "project",
     "license": "proprietary",
     "require": {
-        "php": "^7.1.3",
+        "php": "^7.2",
         "ext-gd": "*",
         "ext-iconv": "*",
-        "elasticms/client-helper-bundle": "^3.0",
-        "elasticms/submission-bundle": "^0.1.0",
-        "sensio/framework-extra-bundle": "^5.1",
-        "symfony/asset": "^4.2",
-        "symfony/console": "^4.2",
-        "symfony/expression-language": "^4.2",
-        "symfony/form": "^4.2",
-        "symfony/framework-bundle": "^4.2",
-        "symfony/monolog-bundle": "^3.1",
-        "symfony/orm-pack": "*",
-        "symfony/process": "^4.2",
-        "symfony/security-bundle": "^4.2",
-        "symfony/serializer-pack": "*",
-        "symfony/swiftmailer-bundle": "^3.1",
-        "symfony/templating": "^4.2",
-        "symfony/twig-bundle": "^4.2",
-        "symfony/validator": "^4.2",
-        "symfony/web-link": "^4.2",
-        "symfony/webpack-encore-pack": "*",
-        "symfony/yaml": "^4.2"
+        "elasticms/client-helper-bundle": "^3.1",
+        "elasticms/submission-bundle": "^1.0",
+        "sensio/framework-extra-bundle": "^5.3",
+        "symfony/asset": "^4.3",
+        "symfony/console": "^4.3",
+        "symfony/expression-language": "^4.3",
+        "symfony/form": "^4.3",
+        "symfony/framework-bundle": "^4.3",
+        "symfony/monolog-bundle": "^3.3",
+        "symfony/orm-pack": "^1.0",
+        "symfony/process": "^4.3",
+        "symfony/security-bundle": "^4.3",
+        "symfony/serializer-pack": "^1.0",
+        "symfony/swiftmailer-bundle": "^3.2",
+        "symfony/templating": "^4.3",
+        "symfony/twig-bundle": "^4.3",
+        "symfony/validator": "^4.3",
+        "symfony/web-link": "^4.3",
+        "symfony/webpack-encore-pack": "^1.0",
+        "symfony/yaml": "^4.3",
+        "twig/twig": "~2.10.0",
+        "elasticsearch/elasticsearch": "~5.3.0"
     },
     "require-dev": {
-        "symfony/debug-pack": "*",
-        "symfony/dotenv": "^4.2",
+        "symfony/debug-bundle": "^4.3",
+        "symfony/debug-pack": "^1.0",
+        "symfony/dotenv": "^4.3",
         "symfony/maker-bundle": "^1.0",
-        "symfony/profiler-pack": "*",
+        "symfony/profiler-pack": "^1.0",
         "symfony/test-pack": "^1.0",
-        "symfony/web-server-bundle": "^4.2"
+        "symfony/web-server-bundle": "^4.3"
     },
     "config": {
         "preferred-install": {
@@ -53,22 +56,9 @@
         }
     },
     "replace": {
-        "symfony/polyfill-iconv": "*",
-        "symfony/polyfill-php71": "*",
-        "symfony/polyfill-php70": "*",
-        "symfony/polyfill-php56": "*"
+        "symfony/polyfill-iconv": "*"
     },
     "scripts": {
-        "auto-scripts": {
-            "cache:clear": "symfony-cmd",
-            "assets:install %PUBLIC_DIR%": "symfony-cmd"
-        },
-        "post-install-cmd": [
-            "@auto-scripts"
-        ],
-        "post-update-cmd": [
-            "@auto-scripts"
-        ]
     },
     "conflict": {
         "symfony/symfony": "*"
