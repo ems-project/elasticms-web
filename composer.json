@@ -11,6 +11,7 @@
         "symfony/asset": "^4.2",
         "symfony/console": "^4.2",
         "symfony/expression-language": "^4.2",
+        "symfony/flex": "^1.6",
         "symfony/form": "^4.2",
         "symfony/framework-bundle": "^4.2",
         "symfony/monolog-bundle": "^3.1",
@@ -60,8 +61,8 @@
     },
     "scripts": {
         "auto-scripts": {
-            "cache:clear": "php bin/console cache:clear",
-            "assets:install %PUBLIC_DIR%": "php bin/console assets:install"
+            "cache:clear": "symfony-cmd",
+            "assets:install %PUBLIC_DIR%": "symfony-cmd"
         },
         "post-install-cmd": [
             "@auto-scripts"
