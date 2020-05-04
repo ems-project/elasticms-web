@@ -4,6 +4,7 @@ parameters:
     env(EMSCH_LOG_BY_PASS): false
     env(EMSCH_ELASTICSEARCH_CLUSTER): '["http://localhost:9200"]'
     env(EMSCH_LOCALES): '["fr","nl"]'
+    env(EMSCH_BIND_LOCALE): true
     env(EMSCH_ENVS): '{}'
 
     env(EMSCH_ROUTE_TYPE):       ~
@@ -35,6 +36,7 @@ ems_client_helper:
             url: '%env(string:EMSCH_BACKEND_URL)%'
             key: '%env(string:EMSCH_BACKEND_API_KEY)%'
     locales: '%env(json:EMSCH_LOCALES)%'
+#    bind_locale: '%env(bool:EMSCH_BIND_LOCALE)%'
     log:
         hosts: '%env(json:EMSCH_ELASTICSEARCH_CLUSTER)%'
         instance_id: '%env(string:EMSCH_LOG_INSTANCE_ID)%'

@@ -1509,16 +1509,16 @@
         },
         {
             "name": "elasticms/client-helper-bundle",
-            "version": "3.2.4",
+            "version": "3.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSClientHelperBundle.git",
-                "reference": "8b1ba3d7d2aef4ded18ca1e70ed76692e9b30375"
+                "reference": "c7661d59111ab977d76123e7aed2265fa1ea0018"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/8b1ba3d7d2aef4ded18ca1e70ed76692e9b30375",
-                "reference": "8b1ba3d7d2aef4ded18ca1e70ed76692e9b30375",
+                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/c7661d59111ab977d76123e7aed2265fa1ea0018",
+                "reference": "c7661d59111ab977d76123e7aed2265fa1ea0018",
                 "shasum": ""
             },
             "require": {
@@ -1535,7 +1535,7 @@
             },
             "require-dev": {
                 "mockery/mockery": "^0.9",
-                "phpstan/phpstan": "^0.11",
+                "phpstan/phpstan": "^0.12",
                 "phpunit/phpunit": "^5.7",
                 "squizlabs/php_codesniffer": "^3.4",
                 "symfony/phpunit-bridge": "^4.4"
@@ -1576,7 +1576,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-03-11T09:55:20+00:00"
+            "time": "2020-05-04T14:06:13+00:00"
         },
         {
             "name": "elasticms/common-bundle",
@@ -7879,5 +7879,6 @@
         "ext-gd": "*",
         "ext-iconv": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
