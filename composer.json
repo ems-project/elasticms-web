@@ -11,6 +11,7 @@
         "symfony/asset": "^4.2",
         "symfony/console": "^4.2",
         "symfony/expression-language": "^4.2",
+        "symfony/flex": "^1.6",
         "symfony/form": "^4.2",
         "symfony/framework-bundle": "^4.2",
         "symfony/monolog-bundle": "^3.1",
@@ -23,7 +24,6 @@
         "symfony/twig-bundle": "^4.2",
         "symfony/validator": "^4.2",
         "symfony/web-link": "^4.2",
-        "symfony/webpack-encore-pack": "*",
         "symfony/yaml": "^4.2"
     },
     "require-dev": {

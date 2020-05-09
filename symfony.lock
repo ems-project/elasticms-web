@@ -71,6 +71,9 @@
     "doctrine/reflection": {
         "version": "v1.0.0"
     },
+    "dompdf/dompdf": {
+        "version": "v0.8.5"
+    },
     "easycorp/easy-log-handler": {
         "version": "1.0",
         "recipe": {
@@ -131,6 +134,12 @@
     "ocramius/proxy-manager": {
         "version": "2.2.0"
     },
+    "phenx/php-font-lib": {
+        "version": "0.5.2"
+    },
+    "phenx/php-svg-lib": {
+        "version": "v0.3.3"
+    },
     "php": {
         "version": "7.2"
     },
@@ -163,6 +172,9 @@
     },
     "react/promise": {
         "version": "v2.7.0"
+    },
+    "sabberworm/php-css-parser": {
+        "version": "8.3.0"
     },
     "sensio/framework-extra-bundle": {
         "version": "4.0",
@@ -232,6 +244,9 @@
     },
     "symfony/dotenv": {
         "version": "v4.1.1"
+    },
+    "symfony/error-handler": {
+        "version": "v4.4.8"
     },
     "symfony/event-dispatcher": {
         "version": "v4.1.1"
@@ -456,15 +471,6 @@
             "branch": "master",
             "version": "3.3",
             "ref": "dae9b39fd6717970be7601101ce5aa960bf53d9a"
-        }
-    },
-    "symfony/webpack-encore-pack": {
-        "version": "1.0",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "master",
-            "version": "1.0",
-            "ref": "0e8ef1deeaef761e1defbec0be694237660ab13a"
         }
     },
     "symfony/yaml": {
