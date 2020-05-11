@@ -1,7 +1,7 @@
 parameters:
     env(EMSCH_INSTANCE_ID): website_
     env(EMSCH_LOG_INSTANCE_ID): website_
-    env(EMSCH_LOG_BY_PASS): false
+    env(EMSCH_LOG_BY_PASS): true
     env(EMSCH_ELASTICSEARCH_CLUSTER): '["http://localhost:9200"]'
     env(EMSCH_LOCALES): '["fr","nl"]'
     env(EMSCH_BIND_LOCALE): true
