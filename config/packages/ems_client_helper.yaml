@@ -36,7 +36,7 @@ ems_client_helper:
             url: '%env(string:EMSCH_BACKEND_URL)%'
             key: '%env(string:EMSCH_BACKEND_API_KEY)%'
     locales: '%env(json:EMSCH_LOCALES)%'
-#    bind_locale: '%env(bool:EMSCH_BIND_LOCALE)%'
+    bind_locale: '%env(bool:EMSCH_BIND_LOCALE)%'
     log:
         hosts: '%env(json:EMSCH_ELASTICSEARCH_CLUSTER)%'
         instance_id: '%env(string:EMSCH_LOG_INSTANCE_ID)%'
@@ -68,3 +68,5 @@ ems_client_helper:
         client_request: website
         routes: '%env(json:EMSCH_ROUTES)%'
         redirect_type: '%env(string:EMSCH_REDIRECT_TYPE)%'
+    user_api:
+        url: '%env(string:EMSCH_BACKEND_URL)%'
