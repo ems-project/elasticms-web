@@ -1602,16 +1602,16 @@
         },
         {
             "name": "elasticms/client-helper-bundle",
-            "version": "3.3",
+            "version": "3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSClientHelperBundle.git",
-                "reference": "7f3f13bcb7ae5a13a83f8f9ca34463d75a0dc5ec"
+                "reference": "8aff20402379980a80ce60817f2ba1c78473d07a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/7f3f13bcb7ae5a13a83f8f9ca34463d75a0dc5ec",
-                "reference": "7f3f13bcb7ae5a13a83f8f9ca34463d75a0dc5ec",
+                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/8aff20402379980a80ce60817f2ba1c78473d07a",
+                "reference": "8aff20402379980a80ce60817f2ba1c78473d07a",
                 "shasum": ""
             },
             "require": {
@@ -1670,7 +1670,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-06-15T11:54:38+00:00"
+            "time": "2020-07-23T07:57:16+00:00"
         },
         {
             "name": "elasticms/common-bundle",
