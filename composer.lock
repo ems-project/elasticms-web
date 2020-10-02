@@ -1594,16 +1594,16 @@
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.8.13",
+            "version": "1.8.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "34e9f5c63bb8dd6d213b4c458ed1c3508569ec37"
+                "reference": "9d4e68f4eefa4d2a114827c4137b1089e9c06440"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/34e9f5c63bb8dd6d213b4c458ed1c3508569ec37",
-                "reference": "34e9f5c63bb8dd6d213b4c458ed1c3508569ec37",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/9d4e68f4eefa4d2a114827c4137b1089e9c06440",
+                "reference": "9d4e68f4eefa4d2a114827c4137b1089e9c06440",
                 "shasum": ""
             },
             "require": {
@@ -1620,6 +1620,7 @@
                 "guzzlehttp/guzzle": "^6.3",
                 "php": "^7.2.0",
                 "symfony/dom-crawler": "^4.4",
+                "symfony/expression-language": "^4.4",
                 "symfony/framework-bundle": "^4.4",
                 "symfony/http-foundation": "^4.4",
                 "symfony/monolog-bridge": "^4.4",
@@ -1671,7 +1672,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-06-15T09:25:30+00:00"
+            "time": "2020-10-01T12:59:33+00:00"
         },
         {
             "name": "elasticms/form-bundle",
