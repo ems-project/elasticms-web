@@ -1522,16 +1522,16 @@
         },
         {
             "name": "elasticms/client-helper-bundle",
-            "version": "3.3.4",
+            "version": "3.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSClientHelperBundle.git",
-                "reference": "80306806d6de5c78cee5a886c74c37442cde7c0a"
+                "reference": "024f6c2aea49c43e66c3248654c95d16cf906fbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/80306806d6de5c78cee5a886c74c37442cde7c0a",
-                "reference": "80306806d6de5c78cee5a886c74c37442cde7c0a",
+                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/024f6c2aea49c43e66c3248654c95d16cf906fbb",
+                "reference": "024f6c2aea49c43e66c3248654c95d16cf906fbb",
                 "shasum": ""
             },
             "require": {
@@ -1590,20 +1590,20 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-08-26T14:37:06+00:00"
+            "time": "2020-10-20T07:13:41+00:00"
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.8.16",
+            "version": "1.8.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "9d4e68f4eefa4d2a114827c4137b1089e9c06440"
+                "reference": "46e7dee3ef79524e53a7643cf2c1c0e4600fb141"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/9d4e68f4eefa4d2a114827c4137b1089e9c06440",
-                "reference": "9d4e68f4eefa4d2a114827c4137b1089e9c06440",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/46e7dee3ef79524e53a7643cf2c1c0e4600fb141",
+                "reference": "46e7dee3ef79524e53a7643cf2c1c0e4600fb141",
                 "shasum": ""
             },
             "require": {
@@ -1672,7 +1672,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-10-01T12:59:33+00:00"
+            "time": "2020-10-07T12:33:31+00:00"
         },
         {
             "name": "elasticms/form-bundle",
@@ -6192,6 +6192,20 @@
                 "MIT"
             ],
             "description": "A pack for the Symfony serializer",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-03-28T16:26:24+00:00"
         },
         {
@@ -7471,6 +7485,20 @@
                 "MIT"
             ],
             "description": "A debug pack for Symfony projects",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-04-07T10:08:51+00:00"
         },
         {
@@ -7855,5 +7883,6 @@
         "ext-gd": "*",
         "ext-iconv": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }

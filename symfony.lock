@@ -140,6 +140,9 @@
     "nikic/php-parser": {
         "version": "v4.0.2"
     },
+    "ocramius/package-versions": {
+        "version": "1.4.2"
+    },
     "ocramius/proxy-manager": {
         "version": "2.2.0"
     },
