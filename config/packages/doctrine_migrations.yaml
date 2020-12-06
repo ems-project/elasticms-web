@@ -1,5 +1,6 @@
+parameters:
+    env(DB_DRIVER): 'mysql'
+
 doctrine_migrations:
-    dir_name: '%kernel.project_dir%/src/Migrations'
-    # namespace is arbitrary but should be different from App\Migrations
-    # as migrations classes should NOT be autoloaded
-    namespace: DoctrineMigrations
+    migrations_paths:
+        DoctrineMigrations: '%kernel.project_dir%/src/Migrations/pdo_%env(resolve:DB_DRIVER)%'

@@ -18,4 +18,5 @@ return [
     EMS\CommonBundle\EMSCommonBundle::class => ['all' => true],
     EMS\FormBundle\EMSFormBundle::class => ['all' => true],
     EMS\SubmissionBundle\EMSSubmissionBundle::class => ['all' => true],
+    Endroid\QrCodeBundle\EndroidQrCodeBundle::class => ['all' => true],
 ];

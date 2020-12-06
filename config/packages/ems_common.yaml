@@ -1,14 +1,18 @@
 parameters:
-    env(EMS_HASH_ALGO): 'sha1'
-    env(STORAGE_PATH): '../var/assets'
+    #Deprecated parameters
+    env(EMSCH_ELASTICSEARCH_CLUSTER): '["http://localhost:9200"]'
+    env(STORAGE_PATH): ''
     env(EMSCH_BACKEND_URL): ~
     env(S3_BUCKET): ~
     env(S3_CREDENTIALS): '[]'
 
+    #Parameters
+    env(EMS_HASH_ALGO): 'sha1'
+    env(EMS_STORAGES): '[{"type":"fs","path":"%env(string:STORAGE_PATH)%"},{"type":"s3","credentials":%env(string:S3_CREDENTIALS)%,"bucket":"%env(string:S3_BUCKET)%"},{"type":"http","base-url":"%env(string:EMSCH_BACKEND_URL)%"}]'
+    env(EMS_ELASTICSEARCH_HOSTS): '%env(string:EMSCH_ELASTICSEARCH_CLUSTER)%'
+
 
 ems_common:
     hash_algo: '%env(string:EMS_HASH_ALGO)%'
-    storage_path: '%env(string:STORAGE_PATH)%'
-    backend_url: '%env(string:EMSCH_BACKEND_URL)%'
-    s3_credentials: '%env(json:S3_CREDENTIALS)%'
-    s3_bucket: '%env(string:S3_BUCKET)%'
+    elasticsearch_hosts: '%env(json:EMS_ELASTICSEARCH_HOSTS)%'
+    storages: '%env(json:EMS_STORAGES)%'
