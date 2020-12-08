@@ -7,6 +7,10 @@ Encore
     .setOutputPath('public/bundles/emsch_assets')
     .setPublicPath('/bundles/emsch_assets')
     .setManifestKeyPrefix('bundles/emsch_assets/')
+    .configureUrlLoader({
+        fonts: { limit: 4096, publicPath: '../' },
+        images: { limit: 4096, publicPath: '../' }
+    })
 
     .cleanupOutputBeforeBuild()
     .autoProvidejQuery()

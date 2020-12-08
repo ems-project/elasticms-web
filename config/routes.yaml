@@ -6,3 +6,7 @@ helper:
 
 forms:
   resource: '@EMSFormBundle/Resources/config/routing/form.xml'
+
+user_api:
+  resource: '@EMSClientHelperBundle/Resources/config/routing/user_api.xml'
+  prefix: /user_api
