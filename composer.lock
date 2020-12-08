@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.166.2",
+            "version": "3.168.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "fe0ec9235d07b0f51ec4396dce0dd639020ae1a7"
+                "reference": "842621099b1de31ec6efd7535b8b343397c6e0ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/fe0ec9235d07b0f51ec4396dce0dd639020ae1a7",
-                "reference": "fe0ec9235d07b0f51ec4396dce0dd639020ae1a7",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/842621099b1de31ec6efd7535b8b343397c6e0ec",
+                "reference": "842621099b1de31ec6efd7535b8b343397c6e0ec",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +89,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-12-04T19:12:30+00:00"
+            "time": "2020-12-08T19:17:21+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -1915,16 +1915,16 @@
         },
         {
             "name": "elasticms/client-helper-bundle",
-            "version": "3.3.5",
+            "version": "3.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSClientHelperBundle.git",
-                "reference": "024f6c2aea49c43e66c3248654c95d16cf906fbb"
+                "reference": "438571beed1d926ee0e5b164cfbda3f28bc00845"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/024f6c2aea49c43e66c3248654c95d16cf906fbb",
-                "reference": "024f6c2aea49c43e66c3248654c95d16cf906fbb",
+                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/438571beed1d926ee0e5b164cfbda3f28bc00845",
+                "reference": "438571beed1d926ee0e5b164cfbda3f28bc00845",
                 "shasum": ""
             },
             "require": {
@@ -1941,6 +1941,7 @@
                 "twig/twig": "~2.10.0"
             },
             "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.16",
                 "mockery/mockery": "^0.9",
                 "phpstan/phpstan": "^0.12",
                 "phpunit/phpunit": "^5.7",
@@ -1983,20 +1984,20 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-10-20T07:13:41+00:00"
+            "time": "2020-12-08T21:12:43+00:00"
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.8.37",
+            "version": "1.8.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "9cb28b8d5029fa125378080cb7e8dd5447e50e60"
+                "reference": "f933675f8a9424d73b9321b5007050a058a0f79a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/9cb28b8d5029fa125378080cb7e8dd5447e50e60",
-                "reference": "9cb28b8d5029fa125378080cb7e8dd5447e50e60",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/f933675f8a9424d73b9321b5007050a058a0f79a",
+                "reference": "f933675f8a9424d73b9321b5007050a058a0f79a",
                 "shasum": ""
             },
             "require": {
@@ -2066,20 +2067,20 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-12-03T11:48:06+00:00"
+            "time": "2020-12-08T11:05:01+00:00"
         },
         {
             "name": "elasticms/form-bundle",
-            "version": "1.12.48",
+            "version": "1.12.49",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSFormBundle.git",
-                "reference": "16e2ad8cb427db2523f7c9b68a61a16c104f81f7"
+                "reference": "4f179550fe3b67aa7d488161864533852ad0ad85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSFormBundle/zipball/16e2ad8cb427db2523f7c9b68a61a16c104f81f7",
-                "reference": "16e2ad8cb427db2523f7c9b68a61a16c104f81f7",
+                "url": "https://api.github.com/repos/ems-project/EMSFormBundle/zipball/4f179550fe3b67aa7d488161864533852ad0ad85",
+                "reference": "4f179550fe3b67aa7d488161864533852ad0ad85",
                 "shasum": ""
             },
             "require": {
@@ -2099,6 +2100,7 @@
                 "twig/twig": "~2.10.0"
             },
             "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.16",
                 "mockery/mockery": "^0.9",
                 "phpmd/phpmd": "2.8.2",
                 "phpstan/phpstan": "^0.11",
@@ -2129,20 +2131,20 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-10-28T08:43:17+00:00"
+            "time": "2020-12-08T12:55:34+00:00"
         },
         {
             "name": "elasticms/submission-bundle",
-            "version": "2.1.5",
+            "version": "2.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSSubmissionBundle.git",
-                "reference": "412817da1f4962ea93018af27622637706a714e3"
+                "reference": "98b02e6ebb3e3460aa97a375121e5911ba3125ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSSubmissionBundle/zipball/412817da1f4962ea93018af27622637706a714e3",
-                "reference": "412817da1f4962ea93018af27622637706a714e3",
+                "url": "https://api.github.com/repos/ems-project/EMSSubmissionBundle/zipball/98b02e6ebb3e3460aa97a375121e5911ba3125ad",
+                "reference": "98b02e6ebb3e3460aa97a375121e5911ba3125ad",
                 "shasum": ""
             },
             "require": {
@@ -2191,7 +2193,7 @@
             "keywords": [
                 "elasticms"
             ],
-            "time": "2020-09-07T13:45:36+00:00"
+            "time": "2020-12-08T12:54:02+00:00"
         },
         {
             "name": "elasticsearch/elasticsearch",
@@ -4667,32 +4669,31 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v6.2.3",
+            "version": "v6.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "149cfdf118b169f7840bbe3ef0d4bc795d1780c9"
+                "reference": "56f0ab23f54c4ccbb0d5dcc67ff8552e0c98d59e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/149cfdf118b169f7840bbe3ef0d4bc795d1780c9",
-                "reference": "149cfdf118b169f7840bbe3ef0d4bc795d1780c9",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/56f0ab23f54c4ccbb0d5dcc67ff8552e0c98d59e",
+                "reference": "56f0ab23f54c4ccbb0d5dcc67ff8552e0c98d59e",
                 "shasum": ""
             },
             "require": {
-                "egulias/email-validator": "~2.0",
+                "egulias/email-validator": "^2.0",
                 "php": ">=7.0.0",
                 "symfony/polyfill-iconv": "^1.0",
                 "symfony/polyfill-intl-idn": "^1.10",
                 "symfony/polyfill-mbstring": "^1.0"
             },
             "require-dev": {
-                "mockery/mockery": "~0.9.1",
-                "symfony/phpunit-bridge": "^3.4.19|^4.1.8"
+                "mockery/mockery": "^1.0",
+                "symfony/phpunit-bridge": "^4.4|^5.0"
             },
             "suggest": {
-                "ext-intl": "Needed to support internationalized email addresses",
-                "true/punycode": "Needed to support internationalized email addresses, if ext-intl is not installed"
+                "ext-intl": "Needed to support internationalized email addresses"
             },
             "type": "library",
             "extra": {
@@ -4725,7 +4726,17 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2019-11-12T09:31:26+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/swiftmailer/swiftmailer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-12-08T18:02:06+00:00"
         },
         {
             "name": "symfony-cmf/routing",
@@ -10062,20 +10073,20 @@
         },
         {
             "name": "symfony/maker-bundle",
-            "version": "v1.24.2",
+            "version": "v1.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/maker-bundle.git",
-                "reference": "87620ef23319ebbdfc5b51dd6b6e7d12003f4564"
+                "reference": "6d2da12632f5c8b9aa7b159f0bb46f245289434a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/maker-bundle/zipball/87620ef23319ebbdfc5b51dd6b6e7d12003f4564",
-                "reference": "87620ef23319ebbdfc5b51dd6b6e7d12003f4564",
+                "url": "https://api.github.com/repos/symfony/maker-bundle/zipball/6d2da12632f5c8b9aa7b159f0bb46f245289434a",
+                "reference": "6d2da12632f5c8b9aa7b159f0bb46f245289434a",
                 "shasum": ""
             },
             "require": {
-                "doctrine/inflector": "^1.2",
+                "doctrine/inflector": "^1.2|^2.0",
                 "nikic/php-parser": "^4.0",
                 "php": ">=7.1.3",
                 "symfony/config": "^3.4|^4.0|^5.0",
@@ -10142,7 +10153,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-11-27T17:49:17+00:00"
+            "time": "2020-12-07T14:47:57+00:00"
         },
         {
             "name": "symfony/phpunit-bridge",
