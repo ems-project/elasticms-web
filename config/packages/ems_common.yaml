@@ -3,7 +3,7 @@ parameters:
     env(EMSCH_ELASTICSEARCH_CLUSTER): '["http://localhost:9200"]'
     env(STORAGE_PATH): ''
     env(EMSCH_BACKEND_URL): ~
-    env(S3_BUCKET): ~
+    env(S3_BUCKET): ''
     env(S3_CREDENTIALS): '[]'
 
     #Parameters
