@@ -10,3 +10,7 @@ forms:
 user_api:
   resource: '@EMSClientHelperBundle/Resources/config/routing/user_api.xml'
   prefix: /user_api
+
+asset:
+  resource: '@EMSClientHelperBundle/Resources/config/routing/asset.xml'
+  prefix: /bundles
