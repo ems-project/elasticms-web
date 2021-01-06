@@ -2017,16 +2017,16 @@
         },
         {
             "name": "elasticms/client-helper-bundle",
-            "version": "3.4.3",
+            "version": "3.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSClientHelperBundle.git",
-                "reference": "76f396f198cac088d4a0c024ac1b7b136dcd8552"
+                "reference": "557788800eea4ae8a2483da287e32262340588a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/76f396f198cac088d4a0c024ac1b7b136dcd8552",
-                "reference": "76f396f198cac088d4a0c024ac1b7b136dcd8552",
+                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/557788800eea4ae8a2483da287e32262340588a0",
+                "reference": "557788800eea4ae8a2483da287e32262340588a0",
                 "shasum": ""
             },
             "require": {
@@ -2088,9 +2088,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSClientHelperBundle/issues",
-                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/3.4.3"
+                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/3.4.4"
             },
-            "time": "2021-01-05T21:26:00+00:00"
+            "time": "2021-01-06T01:14:48+00:00"
         },
         {
             "name": "elasticms/common-bundle",
