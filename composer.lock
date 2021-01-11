@@ -2017,16 +2017,16 @@
         },
         {
             "name": "elasticms/client-helper-bundle",
-            "version": "3.5.0",
+            "version": "3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSClientHelperBundle.git",
-                "reference": "e79993cc1f2a5bba737e283202e45c8ef738247b"
+                "reference": "bed90cf95a4e7b216d3bf6506c16cf7568874343"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/e79993cc1f2a5bba737e283202e45c8ef738247b",
-                "reference": "e79993cc1f2a5bba737e283202e45c8ef738247b",
+                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/bed90cf95a4e7b216d3bf6506c16cf7568874343",
+                "reference": "bed90cf95a4e7b216d3bf6506c16cf7568874343",
                 "shasum": ""
             },
             "require": {
@@ -2088,22 +2088,22 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSClientHelperBundle/issues",
-                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/3.5.0"
+                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/3.5.1"
             },
-            "time": "2021-01-10T06:13:45+00:00"
+            "time": "2021-01-11T00:28:57+00:00"
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.8.48",
+            "version": "1.8.49",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "178aae9de5db54f4b6009dea56ea087b53e56095"
+                "reference": "c71d40a03b2e59e37c2a9dc7458e801227c88304"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/178aae9de5db54f4b6009dea56ea087b53e56095",
-                "reference": "178aae9de5db54f4b6009dea56ea087b53e56095",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/c71d40a03b2e59e37c2a9dc7458e801227c88304",
+                "reference": "c71d40a03b2e59e37c2a9dc7458e801227c88304",
                 "shasum": ""
             },
             "require": {
@@ -2175,9 +2175,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCommonBundle/issues",
-                "source": "https://github.com/ems-project/EMSCommonBundle/tree/1.8.48"
+                "source": "https://github.com/ems-project/EMSCommonBundle/tree/1.8.49"
             },
-            "time": "2021-01-10T06:10:09+00:00"
+            "time": "2021-01-11T00:25:35+00:00"
         },
         {
             "name": "elasticms/form-bundle",
