@@ -38,10 +38,6 @@ ems_client_helper:
             key: '%env(string:EMSCH_BACKEND_API_KEY)%'
     locales: '%env(json:EMSCH_LOCALES)%'
     bind_locale: '%env(bool:EMSCH_BIND_LOCALE)%'
-    log:
-        hosts: '%env(json:EMS_ELASTICSEARCH_HOSTS)%'
-        instance_id: '%env(string:EMSCH_LOG_INSTANCE_ID)%'
-        by_pass: '%env(bool:EMSCH_LOG_BY_PASS)%'
     request_environments: '%env(json:EMSCH_ENVS)%'
     dump_assets: '%env(bool:EMSCH_DUMP_ASSETS)%'
     elasticms:
