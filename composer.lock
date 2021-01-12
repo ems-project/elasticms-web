@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.171.14",
+            "version": "3.171.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "2bc8681a623caa13d5c1da90ca4d6c76436b545d"
+                "reference": "26c7f2deb05110c62e38cc867658f1ef89123365"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2bc8681a623caa13d5c1da90ca4d6c76436b545d",
-                "reference": "2bc8681a623caa13d5c1da90ca4d6c76436b545d",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/26c7f2deb05110c62e38cc867658f1ef89123365",
+                "reference": "26c7f2deb05110c62e38cc867658f1ef89123365",
                 "shasum": ""
             },
             "require": {
@@ -92,9 +92,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.171.14"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.171.15"
             },
-            "time": "2021-01-07T19:16:26+00:00"
+            "time": "2021-01-11T19:28:59+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -2017,16 +2017,16 @@
         },
         {
             "name": "elasticms/client-helper-bundle",
-            "version": "3.5.1",
+            "version": "3.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSClientHelperBundle.git",
-                "reference": "bed90cf95a4e7b216d3bf6506c16cf7568874343"
+                "reference": "6b75162b450396e62b9e18fb790901faaa6ad0a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/bed90cf95a4e7b216d3bf6506c16cf7568874343",
-                "reference": "bed90cf95a4e7b216d3bf6506c16cf7568874343",
+                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/6b75162b450396e62b9e18fb790901faaa6ad0a0",
+                "reference": "6b75162b450396e62b9e18fb790901faaa6ad0a0",
                 "shasum": ""
             },
             "require": {
@@ -2088,22 +2088,22 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSClientHelperBundle/issues",
-                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/3.5.1"
+                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/3.5.2"
             },
-            "time": "2021-01-11T00:28:57+00:00"
+            "time": "2021-01-12T10:18:55+00:00"
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.8.49",
+            "version": "1.8.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "c71d40a03b2e59e37c2a9dc7458e801227c88304"
+                "reference": "015100fd9fd46ee4ff51fa4fa46bbd00b2a7d25d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/c71d40a03b2e59e37c2a9dc7458e801227c88304",
-                "reference": "c71d40a03b2e59e37c2a9dc7458e801227c88304",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/015100fd9fd46ee4ff51fa4fa46bbd00b2a7d25d",
+                "reference": "015100fd9fd46ee4ff51fa4fa46bbd00b2a7d25d",
                 "shasum": ""
             },
             "require": {
@@ -2175,9 +2175,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCommonBundle/issues",
-                "source": "https://github.com/ems-project/EMSCommonBundle/tree/1.8.49"
+                "source": "https://github.com/ems-project/EMSCommonBundle/tree/1.8.50"
             },
-            "time": "2021-01-11T00:25:35+00:00"
+            "time": "2021-01-11T18:52:05+00:00"
         },
         {
             "name": "elasticms/form-bundle",
@@ -4960,16 +4960,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v6.2.4",
+            "version": "v6.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "56f0ab23f54c4ccbb0d5dcc67ff8552e0c98d59e"
+                "reference": "698a6a9f54d7eb321274de3ad19863802c879fb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/56f0ab23f54c4ccbb0d5dcc67ff8552e0c98d59e",
-                "reference": "56f0ab23f54c4ccbb0d5dcc67ff8552e0c98d59e",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/698a6a9f54d7eb321274de3ad19863802c879fb7",
+                "reference": "698a6a9f54d7eb321274de3ad19863802c879fb7",
                 "shasum": ""
             },
             "require": {
@@ -5019,7 +5019,7 @@
             ],
             "support": {
                 "issues": "https://github.com/swiftmailer/swiftmailer/issues",
-                "source": "https://github.com/swiftmailer/swiftmailer/tree/v6.2.4"
+                "source": "https://github.com/swiftmailer/swiftmailer/tree/v6.2.5"
             },
             "funding": [
                 {
@@ -5031,7 +5031,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-08T18:02:06+00:00"
+            "time": "2021-01-12T09:35:59+00:00"
         },
         {
             "name": "symfony-cmf/routing",
