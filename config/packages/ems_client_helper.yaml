@@ -38,11 +38,8 @@ ems_client_helper:
             asset_config_type: '%env(string:EMSCH_ASSET_CONFIG_TYPE)%'
             templates: '%env(json:EMSCH_TEMPLATES)%'
             search_config: '%env(json:EMSCH_SEARCH_CONFIG)%'
-
     templates:
         error:    '%env(string:EMSCH_TEMPLATE_ERROR)%'
         ems_link:  '%env(string:EMSCH_TEMPLATE_EMS_LINK)%'
-    routing:
-        client_request: website
     user_api:
         url: '%env(string:EMSCH_BACKEND_URL)%'
