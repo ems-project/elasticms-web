@@ -206,6 +206,70 @@
             "time": "2020-08-18T23:57:15+00:00"
         },
         {
+            "name": "cebe/markdown",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cebe/markdown.git",
+                "reference": "9bac5e971dd391e2802dca5400bbeacbaea9eb86"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cebe/markdown/zipball/9bac5e971dd391e2802dca5400bbeacbaea9eb86",
+                "reference": "9bac5e971dd391e2802dca5400bbeacbaea9eb86",
+                "shasum": ""
+            },
+            "require": {
+                "lib-pcre": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "cebe/indent": "*",
+                "facebook/xhprof": "*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "bin": [
+                "bin/markdown"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "cebe\\markdown\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc",
+                    "homepage": "http://cebe.cc/",
+                    "role": "Creator"
+                }
+            ],
+            "description": "A super fast, highly extensible markdown parser for PHP",
+            "homepage": "https://github.com/cebe/markdown#readme",
+            "keywords": [
+                "extensible",
+                "fast",
+                "gfm",
+                "markdown",
+                "markdown-extra"
+            ],
+            "support": {
+                "issues": "https://github.com/cebe/markdown/issues",
+                "source": "https://github.com/cebe/markdown"
+            },
+            "time": "2018-03-26T11:24:36+00:00"
+        },
+        {
             "name": "composer/ca-bundle",
             "version": "1.2.8",
             "source": {
@@ -2017,16 +2081,16 @@
         },
         {
             "name": "elasticms/client-helper-bundle",
-            "version": "3.5.2",
+            "version": "3.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSClientHelperBundle.git",
-                "reference": "6b75162b450396e62b9e18fb790901faaa6ad0a0"
+                "reference": "78fbb8fc86a1ef009a8aa860b8177bbe103c0e1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/6b75162b450396e62b9e18fb790901faaa6ad0a0",
-                "reference": "6b75162b450396e62b9e18fb790901faaa6ad0a0",
+                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/78fbb8fc86a1ef009a8aa860b8177bbe103c0e1c",
+                "reference": "78fbb8fc86a1ef009a8aa860b8177bbe103c0e1c",
                 "shasum": ""
             },
             "require": {
@@ -2088,26 +2152,27 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSClientHelperBundle/issues",
-                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/3.5.2"
+                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/3.5.3"
             },
-            "time": "2021-01-12T10:18:55+00:00"
+            "time": "2021-02-02T15:49:29+00:00"
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.8.50",
+            "version": "1.8.53",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "015100fd9fd46ee4ff51fa4fa46bbd00b2a7d25d"
+                "reference": "06f0107a75ef31c5fcc6340cabe81db6974dd643"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/015100fd9fd46ee4ff51fa4fa46bbd00b2a7d25d",
-                "reference": "015100fd9fd46ee4ff51fa4fa46bbd00b2a7d25d",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/06f0107a75ef31c5fcc6340cabe81db6974dd643",
+                "reference": "06f0107a75ef31c5fcc6340cabe81db6974dd643",
                 "shasum": ""
             },
             "require": {
                 "aws/aws-sdk-php": "^3.109",
+                "cebe/markdown": "^1.2",
                 "doctrine/doctrine-bundle": "^1.11",
                 "doctrine/orm": "^2.6",
                 "dompdf/dompdf": "^0.8.5",
@@ -2175,9 +2240,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCommonBundle/issues",
-                "source": "https://github.com/ems-project/EMSCommonBundle/tree/1.8.50"
+                "source": "https://github.com/ems-project/EMSCommonBundle/tree/1.8.53"
             },
-            "time": "2021-01-11T18:52:05+00:00"
+            "time": "2021-01-23T06:32:24+00:00"
         },
         {
             "name": "elasticms/form-bundle",
