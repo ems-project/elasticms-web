@@ -1,5 +1,5 @@
 parameters:
-    env(EMSF_HASHCASH_DIFFICULTY): '16384'
+    env(EMSF_HASHCASH_DIFFICULTY): 16384
     env(EMSF_ENDPOINTS): '[]'
 
 ems_form:
