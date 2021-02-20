@@ -5,14 +5,14 @@ parameters:
     env(DB_PASSWORD): 'user'
     env(DB_PORT): '3306'
     env(DB_NAME): 'elasticms'
-    #env(DB_SERVER_VERSION): '5.7'
+    env(DB_SERVER_VERSION): '5.7'
     #env(DB_CHARSET): 'utf8mb4'
 
 doctrine:
     dbal:
         # configure these for your database server
         #driver: 'pdo_%env(resolve:DB_DRIVER)%'
-        #server_version: '%env(resolve:DB_SERVER_VERSION)%'
+        server_version: '%env(resolve:DB_SERVER_VERSION)%'
         #charset: '%env(resolve:DB_CHARSET)%'
         #default_table_options:
             #charset: '%env(resolve:DB_CHARSET)%'
