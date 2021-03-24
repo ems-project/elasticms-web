@@ -8,6 +8,9 @@
     "brick/math": {
         "version": "0.9.1"
     },
+    "cebe/markdown": {
+        "version": "1.2.1"
+    },
     "composer/ca-bundle": {
         "version": "1.1.2"
     },
@@ -119,6 +122,9 @@
     "endroid/qr-code-bundle": {
         "version": "3.4.3"
     },
+    "ezyang/htmlpurifier": {
+        "version": "v4.13.0"
+    },
     "fig/link-util": {
         "version": "1.0.0"
     },
@@ -170,6 +176,15 @@
     "league/mime-type-detection": {
         "version": "1.5.1"
     },
+    "maennchen/zipstream-php": {
+        "version": "2.1.0"
+    },
+    "markbaker/complex": {
+        "version": "2.0.0"
+    },
+    "markbaker/matrix": {
+        "version": "2.1.2"
+    },
     "monolog/monolog": {
         "version": "1.23.0"
     },
@@ -206,6 +221,9 @@
     "phpdocumentor/type-resolver": {
         "version": "0.4.0"
     },
+    "phpoffice/phpspreadsheet": {
+        "version": "1.16.0"
+    },
     "phpseclib/phpseclib": {
         "version": "2.0.29"
     },
@@ -215,6 +233,12 @@
     "psr/container": {
         "version": "1.0.0"
     },
+    "psr/http-client": {
+        "version": "1.0.1"
+    },
+    "psr/http-factory": {
+        "version": "1.0.1"
+    },
     "psr/http-message": {
         "version": "1.0.1"
     },
@@ -223,6 +247,9 @@
     },
     "psr/log": {
         "version": "1.0.2"
+    },
+    "psr/simple-cache": {
+        "version": "1.0.1"
     },
     "ralouphie/getallheaders": {
         "version": "3.0.3"
