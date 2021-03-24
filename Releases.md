@@ -1,3 +1,7 @@
+# 3.6.0
+- ClientHelperBundle
+    - [3.6.0](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.6.0)
+
 # 3.5.16
 - ClientHelperBundle
     - [3.5.15](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.5.15)
