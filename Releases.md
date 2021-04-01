@@ -1,3 +1,13 @@
+# 3.5.17
+- ClientHelperBundle
+    - [3.5.17](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.5.17)
+- CommonBundle
+    - [1.8.64](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.64)
+- FormBundle
+    - [1.12.58](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.58)
+- SubmissionBundle
+    - [2.1.8](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/2.1.8)
+
 # 3.5.16
 - ClientHelperBundle
     - [3.5.15](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.5.15)
