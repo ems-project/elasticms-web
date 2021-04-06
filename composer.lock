@@ -2155,16 +2155,16 @@
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.8.64",
+            "version": "1.8.65",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "72558d412a0dea28120692ccbaebfe332a1878df"
+                "reference": "3bfbc44114521071d4d459f9db3adddefccb5633"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/72558d412a0dea28120692ccbaebfe332a1878df",
-                "reference": "72558d412a0dea28120692ccbaebfe332a1878df",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/3bfbc44114521071d4d459f9db3adddefccb5633",
+                "reference": "3bfbc44114521071d4d459f9db3adddefccb5633",
                 "shasum": ""
             },
             "require": {
@@ -2179,7 +2179,7 @@
                 "ext-json": "*",
                 "ext-mbstring": "*",
                 "guzzlehttp/guzzle": "^6.3",
-                "php": "^7.2.0",
+                "php": "^7.4",
                 "phpoffice/phpspreadsheet": "^1.16",
                 "ruflin/elastica": "5.3.6",
                 "symfony/dom-crawler": "^4.4",
@@ -2240,9 +2240,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCommonBundle/issues",
-                "source": "https://github.com/ems-project/EMSCommonBundle/tree/1.8.64"
+                "source": "https://github.com/ems-project/EMSCommonBundle/tree/1.8.65"
             },
-            "time": "2021-03-31T16:15:43+00:00"
+            "time": "2021-04-06T08:07:57+00:00"
         },
         {
             "name": "elasticms/form-bundle",
