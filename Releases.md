@@ -1,3 +1,7 @@
+# 3.5.18
+- CommonBundle
+    - [1.8.65](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.65)
+
 # 3.5.17
 - ClientHelperBundle
     - [3.5.17](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.5.17)
