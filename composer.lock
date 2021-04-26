@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1102929f8650a5298cdf1aedf12cc849",
+    "content-hash": "0387ece0ab46aae2de9a9a91690eae22",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -2077,16 +2077,16 @@
         },
         {
             "name": "elasticms/client-helper-bundle",
-            "version": "dev-release/3.6",
+            "version": "3.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSClientHelperBundle.git",
-                "reference": "e758ff5f7d50e792b094613d1a4626cdd2044643"
+                "reference": "f17c3a2e1a048d75b63c937771f3c61c7209805a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/e758ff5f7d50e792b094613d1a4626cdd2044643",
-                "reference": "e758ff5f7d50e792b094613d1a4626cdd2044643",
+                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/f17c3a2e1a048d75b63c937771f3c61c7209805a",
+                "reference": "f17c3a2e1a048d75b63c937771f3c61c7209805a",
                 "shasum": ""
             },
             "require": {
@@ -2094,6 +2094,7 @@
                 "elasticms/common-bundle": "~1.8.0",
                 "ext-json": "*",
                 "php": "^7.4",
+                "psr/cache": "^1.0",
                 "symfony-cmf/routing": "^2.1.0",
                 "symfony/config": "^4.4",
                 "symfony/framework-bundle": "^4.4",
@@ -2149,9 +2150,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSClientHelperBundle/issues",
-                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/release/3.6"
+                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/3.6.4"
             },
-            "time": "2021-04-01T16:11:52+00:00"
+            "time": "2021-04-26T11:01:34+00:00"
         },
         {
             "name": "elasticms/common-bundle",
@@ -11522,18 +11523,9 @@
             "time": "2020-07-23T08:36:09+00:00"
         }
     ],
-    "aliases": [
-        {
-            "package": "elasticms/client-helper-bundle",
-            "version": "dev-release/3.6",
-            "alias": "3.6.0",
-            "alias_normalized": "3.6.0.0"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "elasticms/client-helper-bundle": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
