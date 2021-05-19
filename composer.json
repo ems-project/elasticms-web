@@ -5,7 +5,7 @@
         "php": "^7.4",
         "ext-gd": "*",
         "ext-iconv": "*",
-        "elasticms/client-helper-bundle": "<3.6",
+        "elasticms/client-helper-bundle": "^3.6",
         "elasticms/submission-bundle": "^2.1",
         "elasticms/form-bundle": "^1.12",
         "endroid/qr-code-bundle": "^3.4",
@@ -24,7 +24,6 @@
         "symfony/security-bundle": "^4.4",
         "symfony/serializer-pack": "*",
         "symfony/swiftmailer-bundle": "^3.4",
-        "symfony/templating": "^4.4",
         "symfony/twig-bundle": "^4.4",
         "symfony/validator": "^4.4",
         "symfony/web-link": "^4.2",
@@ -36,8 +35,7 @@
         "symfony/dotenv": "^4.4",
         "symfony/maker-bundle": "^1.0",
         "symfony/profiler-pack": "*",
-        "symfony/test-pack": "^1.0",
-        "symfony/web-server-bundle": "^4.4"
+        "symfony/test-pack": "^1.0"
     },
     "config": {
         "preferred-install": {
@@ -45,7 +43,6 @@
         },
         "sort-packages": true,
         "secure-http": false
-
     },
     "autoload": {
         "psr-4": {
@@ -58,10 +55,7 @@
         }
     },
     "replace": {
-        "symfony/polyfill-iconv": "*",
-        "symfony/polyfill-php71": "*",
-        "symfony/polyfill-php70": "*",
-        "symfony/polyfill-php56": "*"
+        "symfony/polyfill-iconv": "*"
     },
     "scripts": {
         "auto-scripts": {
