@@ -1,3 +1,6 @@
+# 3.7.10
+- FormBundle
+    - [1.12.61](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.61)
 # 3.7.9
 - ClientHelperBundle
     - [3.7.9](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.7.9)
