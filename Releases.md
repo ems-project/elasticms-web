@@ -1,3 +1,9 @@
+# 3.7.14
+- ClientHelperBundle
+  - [3.7.14](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.7.14)
+- CommonBundle
+  - [1.8.83](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.83)
+
 # 3.7.11
 - ClientHelperBundle
   - [3.7.11](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.7.11)
