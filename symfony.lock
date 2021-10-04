@@ -140,6 +140,12 @@
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.1"
     },
+    "giggsey/libphonenumber-for-php": {
+        "version": "8.12.33"
+    },
+    "giggsey/locale": {
+        "version": "2.0"
+    },
     "guzzlehttp/guzzle": {
         "version": "6.3.3"
     },
