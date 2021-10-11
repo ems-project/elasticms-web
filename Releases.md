@@ -1,3 +1,7 @@
+# 3.7.16
+- CommonBundle
+  - [1.8.85](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.85)
+
 # 3.7.15
 - CommonBundle
   - [1.8.84](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.84)
