@@ -1,3 +1,9 @@
+# 3.7.17
+- CommonBundle
+  - [1.8.86](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.86)
+- FormBundle
+  - [1.12.63](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.63)
+
 # 3.7.16
 - CommonBundle
   - [1.8.85](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.85)
