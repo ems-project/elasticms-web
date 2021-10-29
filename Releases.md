@@ -1,3 +1,9 @@
+# 3.7.20
+- CommonBundle
+  - [1.8.90](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.90)
+- ClientHelperBundle
+  - [3.7.20](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.7.20)
+
 # 3.7.19
 - CommonBundle
   - [1.8.89](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.89)
