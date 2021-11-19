@@ -1,8 +1,14 @@
+# 3.7.21
+- FormBundle
+  - [1.12.65](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.65)
+  
 # 3.7.20
 - CommonBundle
   - [1.8.90](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.90)
 - ClientHelperBundle
   - [3.7.20](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.7.20)
+- FormBundle
+  - [1.12.64](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.64)
 
 # 3.7.19
 - CommonBundle
