@@ -1,3 +1,7 @@
+# 3.7.23
+- FormSubmission
+  - [.1.10](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/2.1.11)
+  
 # 3.7.22
 - CommonBundle
   - [1.8.95](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.95)
