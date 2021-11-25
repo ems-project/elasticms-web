@@ -1,6 +1,9 @@
+# 3.7.25
+- Add Redis support for session storage
+
 # 3.7.23
 - FormSubmission
-  - [.1.10](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/2.1.11)
+  - [2.1.11](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/2.1.11)
   
 # 3.7.22
 - CommonBundle
