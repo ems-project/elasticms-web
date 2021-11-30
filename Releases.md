@@ -1,8 +1,15 @@
+# 3.7.26
+- FormBundle
+  - [1.12.67](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.67)
+  - [1.12.66](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.66)
+- CommonBundle
+  - [1.8.96](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.96)
+
 # 3.7.25
 - Add Redis support for session storage
 
 # 3.7.23
-- FormSubmission
+- SubmissionBundle
   - [2.1.11](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/2.1.11)
   
 # 3.7.22
@@ -10,8 +17,8 @@
   - [1.8.95](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.95)
 - ClientHelperBundle
   - [3.7.21](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.7.21)
-- FormSubmission
-  - [.1.10](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/2.1.10)
+- SubmissionBundle
+  - [2.1.10](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/2.1.10)
   
 # 3.7.21
 - FormBundle
