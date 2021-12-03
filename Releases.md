@@ -1,3 +1,8 @@
+# 3.7.27
+- New EMSCH_ASSET_LOCAL_FOLDER variable
+- ClientHelperBundle
+  - [3.7.27](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.7.27)
+
 # 3.7.26
 - FormBundle
   - [1.12.67](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.67)
