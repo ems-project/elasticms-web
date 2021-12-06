@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.206.0",
+            "version": "3.208.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "ade6621f709261097a0fd2ca0cad7a15ba899b76"
+                "reference": "d497414c1c4ae55145493f720f7b4d12afe92c02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ade6621f709261097a0fd2ca0cad7a15ba899b76",
-                "reference": "ade6621f709261097a0fd2ca0cad7a15ba899b76",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d497414c1c4ae55145493f720f7b4d12afe92c02",
+                "reference": "d497414c1c4ae55145493f720f7b4d12afe92c02",
                 "shasum": ""
             },
             "require": {
@@ -143,9 +143,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.206.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.208.1"
             },
-            "time": "2021-11-29T23:46:23+00:00"
+            "time": "2021-12-03T19:16:12+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -2165,16 +2165,16 @@
         },
         {
             "name": "elasticms/client-helper-bundle",
-            "version": "3.7.21",
+            "version": "3.7.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSClientHelperBundle.git",
-                "reference": "a1fcaeabb93bb3bace11d3b0d1b65b0d44ac0173"
+                "reference": "5e7a070a03b86b46b30b1ca8bd3881c611b38cdc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/a1fcaeabb93bb3bace11d3b0d1b65b0d44ac0173",
-                "reference": "a1fcaeabb93bb3bace11d3b0d1b65b0d44ac0173",
+                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/5e7a070a03b86b46b30b1ca8bd3881c611b38cdc",
+                "reference": "5e7a070a03b86b46b30b1ca8bd3881c611b38cdc",
                 "shasum": ""
             },
             "require": {
@@ -2184,6 +2184,7 @@
                 "php": "^7.4",
                 "psr/cache": "^1.0",
                 "symfony-cmf/routing": "^2.1.0",
+                "symfony/asset": "^4.4",
                 "symfony/config": "^4.4",
                 "symfony/framework-bundle": "^4.4",
                 "symfony/options-resolver": "^4.4",
@@ -2237,22 +2238,22 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSClientHelperBundle/issues",
-                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/3.7.21"
+                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/3.7.27"
             },
-            "time": "2021-11-24T20:45:24+00:00"
+            "time": "2021-12-05T21:50:00+00:00"
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.8.96",
+            "version": "1.8.97",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "3989f295a107b3d78c5f59d9c6305aaba5558457"
+                "reference": "bcd945c579697d877c4eb9239813c1160ad4af51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/3989f295a107b3d78c5f59d9c6305aaba5558457",
-                "reference": "3989f295a107b3d78c5f59d9c6305aaba5558457",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/bcd945c579697d877c4eb9239813c1160ad4af51",
+                "reference": "bcd945c579697d877c4eb9239813c1160ad4af51",
                 "shasum": ""
             },
             "require": {
@@ -2267,6 +2268,7 @@
                 "ext-iconv": "*",
                 "ext-json": "*",
                 "ext-mbstring": "*",
+                "ext-zip": "*",
                 "guzzlehttp/guzzle": "^6.3",
                 "php": "^7.4",
                 "phpoffice/phpspreadsheet": "^1.16",
@@ -2329,22 +2331,22 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCommonBundle/issues",
-                "source": "https://github.com/ems-project/EMSCommonBundle/tree/1.8.96"
+                "source": "https://github.com/ems-project/EMSCommonBundle/tree/1.8.97"
             },
-            "time": "2021-11-30T15:35:00+00:00"
+            "time": "2021-12-06T08:46:56+00:00"
         },
         {
             "name": "elasticms/form-bundle",
-            "version": "1.12.67",
+            "version": "1.12.68",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSFormBundle.git",
-                "reference": "6a4620ae13c7c0e2411194e4a28488a5e305699f"
+                "reference": "34d4eb5254441d7b07f85906ed15f59ff06ba9df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSFormBundle/zipball/6a4620ae13c7c0e2411194e4a28488a5e305699f",
-                "reference": "6a4620ae13c7c0e2411194e4a28488a5e305699f",
+                "url": "https://api.github.com/repos/ems-project/EMSFormBundle/zipball/34d4eb5254441d7b07f85906ed15f59ff06ba9df",
+                "reference": "34d4eb5254441d7b07f85906ed15f59ff06ba9df",
                 "shasum": ""
             },
             "require": {
@@ -2396,9 +2398,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSFormBundle/issues",
-                "source": "https://github.com/ems-project/EMSFormBundle/tree/1.12.67"
+                "source": "https://github.com/ems-project/EMSFormBundle/tree/1.12.68"
             },
-            "time": "2021-11-30T20:12:49+00:00"
+            "time": "2021-12-01T18:09:34+00:00"
         },
         {
             "name": "elasticms/submission-bundle",
@@ -9951,16 +9953,16 @@
         },
         {
             "name": "symfony/swiftmailer-bundle",
-            "version": "v3.5.2",
+            "version": "v3.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/swiftmailer-bundle.git",
-                "reference": "6b72355549f02823a2209180f9c035e46ca3f178"
+                "reference": "fa7d78cbdf0a16a4da126c465f25f6547ad69cf6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/6b72355549f02823a2209180f9c035e46ca3f178",
-                "reference": "6b72355549f02823a2209180f9c035e46ca3f178",
+                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/fa7d78cbdf0a16a4da126c465f25f6547ad69cf6",
+                "reference": "fa7d78cbdf0a16a4da126c465f25f6547ad69cf6",
                 "shasum": ""
             },
             "require": {
@@ -10011,7 +10013,7 @@
             "homepage": "http://symfony.com",
             "support": {
                 "issues": "https://github.com/symfony/swiftmailer-bundle/issues",
-                "source": "https://github.com/symfony/swiftmailer-bundle/tree/v3.5.2"
+                "source": "https://github.com/symfony/swiftmailer-bundle/tree/v3.5.3"
             },
             "funding": [
                 {
@@ -10027,7 +10029,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-25T17:31:39+00:00"
+            "time": "2021-12-02T16:23:52+00:00"
         },
         {
             "name": "symfony/translation",
@@ -11262,16 +11264,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "9.2.9",
+            "version": "9.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "f301eb1453c9e7a1bc912ee8b0ea9db22c60223b"
+                "reference": "d5850aaf931743067f4bfc1ae4cbd06468400687"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/f301eb1453c9e7a1bc912ee8b0ea9db22c60223b",
-                "reference": "f301eb1453c9e7a1bc912ee8b0ea9db22c60223b",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/d5850aaf931743067f4bfc1ae4cbd06468400687",
+                "reference": "d5850aaf931743067f4bfc1ae4cbd06468400687",
                 "shasum": ""
             },
             "require": {
@@ -11327,7 +11329,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.9"
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.10"
             },
             "funding": [
                 {
@@ -11335,20 +11337,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-11-19T15:21:02+00:00"
+            "time": "2021-12-05T09:12:13+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
-            "version": "3.0.5",
+            "version": "3.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
-                "reference": "aa4be8575f26070b100fccb67faabb28f21f66f8"
+                "reference": "cf1c2e7c203ac650e352f4cc675a7021e7d1b3cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/aa4be8575f26070b100fccb67faabb28f21f66f8",
-                "reference": "aa4be8575f26070b100fccb67faabb28f21f66f8",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/cf1c2e7c203ac650e352f4cc675a7021e7d1b3cf",
+                "reference": "cf1c2e7c203ac650e352f4cc675a7021e7d1b3cf",
                 "shasum": ""
             },
             "require": {
@@ -11387,7 +11389,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-file-iterator/issues",
-                "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/3.0.5"
+                "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/3.0.6"
             },
             "funding": [
                 {
@@ -11395,7 +11397,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-28T05:57:25+00:00"
+            "time": "2021-12-02T12:48:52+00:00"
         },
         {
             "name": "phpunit/php-invoker",
@@ -12933,16 +12935,16 @@
         },
         {
             "name": "symfony/maker-bundle",
-            "version": "v1.36.3",
+            "version": "v1.36.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/maker-bundle.git",
-                "reference": "0f40c826c0725208c254ddcd3481690e6c7e5047"
+                "reference": "716eee9c8b10b33e682df1b7d80b9061887e9691"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/maker-bundle/zipball/0f40c826c0725208c254ddcd3481690e6c7e5047",
-                "reference": "0f40c826c0725208c254ddcd3481690e6c7e5047",
+                "url": "https://api.github.com/repos/symfony/maker-bundle/zipball/716eee9c8b10b33e682df1b7d80b9061887e9691",
+                "reference": "716eee9c8b10b33e682df1b7d80b9061887e9691",
                 "shasum": ""
             },
             "require": {
@@ -12952,7 +12954,7 @@
                 "symfony/config": "^4.4|^5.0|^6.0",
                 "symfony/console": "^4.4|^5.0|^6.0",
                 "symfony/dependency-injection": "^4.4|^5.0|^6.0",
-                "symfony/deprecation-contracts": "^2.2",
+                "symfony/deprecation-contracts": "^2.2|^3",
                 "symfony/filesystem": "^4.4|^5.0|^6.0",
                 "symfony/finder": "^4.4|^5.0|^6.0",
                 "symfony/framework-bundle": "^4.4|^5.0|^6.0",
@@ -13001,7 +13003,7 @@
             ],
             "support": {
                 "issues": "https://github.com/symfony/maker-bundle/issues",
-                "source": "https://github.com/symfony/maker-bundle/tree/v1.36.3"
+                "source": "https://github.com/symfony/maker-bundle/tree/v1.36.4"
             },
             "funding": [
                 {
@@ -13017,7 +13019,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-22T18:44:03+00:00"
+            "time": "2021-12-01T00:27:38+00:00"
         },
         {
             "name": "symfony/phpunit-bridge",
