@@ -1,3 +1,7 @@
+# 3.7.28
+- ClientHelperBundle
+  - [3.7.28](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.7.28)
+
 # 3.7.27
 - New EMSCH_ASSET_LOCAL_FOLDER variable
 - ClientHelperBundle
