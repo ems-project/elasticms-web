@@ -158,7 +158,7 @@ Define the [endpoints](https://github.com/ems-project/EMSFormBundle/blob/master/
 
 
 ### EMSF_LOAD_FROMJSON
-Define the [load form JSON](https://github.com/ems-project/EMSFormBundle/blob/master/doc/config.md#load-from-json) for the form bundle. Set to `true` by default.
+Define the [load form JSON](https://github.com/ems-project/EMSFormBundle/blob/master/doc/config.md#load-from-json) for the form bundle. Set to `false` by default.
 
 
 ### EMSF_CACHEABLE
