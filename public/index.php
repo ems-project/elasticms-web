@@ -24,6 +24,16 @@ if ($debug) {
     Debug::enable();
 }
 
+$forwardedProtoHeader = $_SERVER['HTTP_CUSTOM_FORWARDED_PROTO'] ?? null;
+if (\is_string($forwardedProtoHeader) && null !== ($_SERVER[$forwardedProtoHeader] ?? null)) {
+    $_SERVER['HTTP_X_FORWARDED_PROTO'] = $_SERVER[$forwardedProtoHeader];
+}
+
+$forwardedPortHeader = $_SERVER['HTTP_CUSTOM_FORWARDED_PORT'] ?? null;
+if (\is_string($forwardedPortHeader) && null !== ($_SERVER[$forwardedPortHeader] ?? null)) {
+    $_SERVER['HTTP_X_FORWARDED_PORT'] = $_SERVER[$forwardedPortHeader];
+}
+
 if ($trustedProxies = $_SERVER['TRUSTED_PROXIES'] ?? false) {
     Request::setTrustedProxies(explode(',', $trustedProxies), Request::HEADER_X_FORWARDED_ALL ^ Request::HEADER_X_FORWARDED_HOST);
 }

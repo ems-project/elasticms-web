@@ -18,13 +18,23 @@ But there is 2 more possible values, specific to elasticms:
 
 A secret seed.
  - Example `APP_SECRET=7b19a4a6e37b9303e4f6bca1dc6691ed`
- 
+
 ### Behind a Load Balancer or a Reverse Proxy
 
 ```dotenv
 TRUSTED_PROXIES=127.0.0.1,127.0.0.2
 TRUSTED_HOSTS=localhost,example.com
 HTTP_CUSTOM_FORWARDED_PROTO=HTTP_X_COMPANY_FORWARDED_PROTO #Default value HTTP_X_FORWARDED_PROTO
+HTTP_CUSTOM_FORWARDED_PORT=HTTP_X_COMPANY_FORWARDED_PORT #Default value HTTP_X_FORWARDED_PROTO
+```
+
+If the reverse proxy's IP change all the time:
+
+```dotenv
+TRUSTED_PROXIES=127.0.0.1,REMOTE_ADDR
+TRUSTED_HOSTS=localhost,example.com
+HTTP_CUSTOM_FORWARDED_PROTO=HTTP_X_COMPANY_FORWARDED_PROTO #Default value HTTP_X_FORWARDED_PROTO
+HTTP_CUSTOM_FORWARDED_PORT=HTTP_X_COMPANY_FORWARDED_PORT #Default value HTTP_X_FORWARDED_PROTO
 ```
 
 ## Swift Mailer
