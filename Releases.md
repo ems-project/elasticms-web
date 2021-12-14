@@ -1,7 +1,7 @@
 # 3.7.29
 - New Form bundle variables: EMSF_LOAD_FROMJSON and EMSF_CACHEABLE
 - FormBundle
-  - [1.12.68](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.69)
+  - [1.12.69](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.69)
 
 
 # 3.7.28
