@@ -1,3 +1,19 @@
+# 3.7.32
+- CommonBundle
+  - [1.8.98](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.98)
+- SubmissionBundle
+  - [2.1.17](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/2.1.17)
+  - [2.1.16](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/2.1.16)
+  - [2.1.15](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/2.1.15)
+  - [2.1.14](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/2.1.14)
+  - [2.1.13](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/2.1.13)
+
+# 3.7.31
+- FormBundle
+  - [1.12.70](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.12.70)
+- SubmissionBundle
+  - [2.1.12](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/2.1.12)
+
 # 3.7.30
 - FormBundle
   - [1.12.70](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.12.70)
