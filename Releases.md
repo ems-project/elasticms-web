@@ -1,3 +1,7 @@
+# 3.8.2
+- ClientHelperBundle
+  - [3.8.2](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.8.2)
+
 # 3.8.1
 - ESI Support
 
