@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.209.6",
+            "version": "3.209.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "fc4ac03c6ec4acea81c01e8b785c8606943d1fd6"
+                "reference": "45082e9fac26bdbc5db504639373374084f616d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/fc4ac03c6ec4acea81c01e8b785c8606943d1fd6",
-                "reference": "fc4ac03c6ec4acea81c01e8b785c8606943d1fd6",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/45082e9fac26bdbc5db504639373374084f616d3",
+                "reference": "45082e9fac26bdbc5db504639373374084f616d3",
                 "shasum": ""
             },
             "require": {
@@ -143,9 +143,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.209.6"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.209.10"
             },
-            "time": "2022-01-14T19:29:33+00:00"
+            "time": "2022-01-21T19:18:51+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -2161,16 +2161,16 @@
         },
         {
             "name": "elasticms/client-helper-bundle",
-            "version": "3.8.2",
+            "version": "3.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSClientHelperBundle.git",
-                "reference": "74446859431691e82974d99d5d9dcae6b6828233"
+                "reference": "74d123e1de91404f07d2d40ca9d4dd8ffb01dbeb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/74446859431691e82974d99d5d9dcae6b6828233",
-                "reference": "74446859431691e82974d99d5d9dcae6b6828233",
+                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/74d123e1de91404f07d2d40ca9d4dd8ffb01dbeb",
+                "reference": "74d123e1de91404f07d2d40ca9d4dd8ffb01dbeb",
                 "shasum": ""
             },
             "require": {
@@ -2237,22 +2237,22 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSClientHelperBundle/issues",
-                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/3.8.2"
+                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/3.8.3"
             },
-            "time": "2022-01-17T13:46:16+00:00"
+            "time": "2022-01-24T08:44:02+00:00"
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "1.8.101",
+            "version": "1.8.103",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
-                "reference": "be7657ad43f3b3f78147e1022726f51a8bbe3ff1"
+                "reference": "790edac7d50ab318cb08886a7e8484e2d7b5fd38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/be7657ad43f3b3f78147e1022726f51a8bbe3ff1",
-                "reference": "be7657ad43f3b3f78147e1022726f51a8bbe3ff1",
+                "url": "https://api.github.com/repos/ems-project/EMSCommonBundle/zipball/790edac7d50ab318cb08886a7e8484e2d7b5fd38",
+                "reference": "790edac7d50ab318cb08886a7e8484e2d7b5fd38",
                 "shasum": ""
             },
             "require": {
@@ -2331,9 +2331,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCommonBundle/issues",
-                "source": "https://github.com/ems-project/EMSCommonBundle/tree/1.8.101"
+                "source": "https://github.com/ems-project/EMSCommonBundle/tree/1.8.103"
             },
-            "time": "2022-01-13T12:26:21+00:00"
+            "time": "2022-01-19T14:29:27+00:00"
         },
         {
             "name": "elasticms/form-bundle",
@@ -7090,16 +7090,16 @@
         },
         {
             "name": "symfony/flex",
-            "version": "v1.17.6",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/flex.git",
-                "reference": "7a79135e1dc66b30042b4d968ecba0908f9374bc"
+                "reference": "90ee9ddddaadee602dff23ae530310a59936bc8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/flex/zipball/7a79135e1dc66b30042b4d968ecba0908f9374bc",
-                "reference": "7a79135e1dc66b30042b4d968ecba0908f9374bc",
+                "url": "https://api.github.com/repos/symfony/flex/zipball/90ee9ddddaadee602dff23ae530310a59936bc8b",
+                "reference": "90ee9ddddaadee602dff23ae530310a59936bc8b",
                 "shasum": ""
             },
             "require": {
@@ -7135,7 +7135,7 @@
             "description": "Composer plugin for Symfony",
             "support": {
                 "issues": "https://github.com/symfony/flex/issues",
-                "source": "https://github.com/symfony/flex/tree/v1.17.6"
+                "source": "https://github.com/symfony/flex/tree/v1.18.1"
             },
             "funding": [
                 {
@@ -7151,7 +7151,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-29T15:39:37+00:00"
+            "time": "2022-01-19T17:52:31+00:00"
         },
         {
             "name": "symfony/form",
@@ -11607,16 +11607,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.11",
+            "version": "9.5.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "2406855036db1102126125537adb1406f7242fdd"
+                "reference": "597cb647654ede35e43b137926dfdfef0fb11743"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2406855036db1102126125537adb1406f7242fdd",
-                "reference": "2406855036db1102126125537adb1406f7242fdd",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/597cb647654ede35e43b137926dfdfef0fb11743",
+                "reference": "597cb647654ede35e43b137926dfdfef0fb11743",
                 "shasum": ""
             },
             "require": {
@@ -11694,7 +11694,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.11"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.13"
             },
             "funding": [
                 {
@@ -11706,7 +11706,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-12-25T07:07:57+00:00"
+            "time": "2022-01-24T07:33:35+00:00"
         },
         {
             "name": "sebastian/cli-parser",
