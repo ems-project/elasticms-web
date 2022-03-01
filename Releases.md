@@ -1,5 +1,9 @@
 # 3.8.9
 - add twig/intl-extra support (i.e format_datetime filter)
+- CommonBundle
+  - [2.0.3](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.0.3)
+- FormBundle
+  - [1.12.74](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.12.74)
 
 # 3.8.8
 - ClientHelperBundle
