@@ -1,9 +1,19 @@
+# 3.8.10
+- ClientHelperBundle
+  - [3.8.10](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.8.10)
+- CommonBundle
+  - [2.0.6](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.0.6)
+  - [2.0.5](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.0.5)
+  - [2.0.4](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.0.4)
+- FormBundle
+  - [1.12.75](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.75)
+  
 # 3.8.9
 - add twig/intl-extra support (i.e format_datetime filter)
 - CommonBundle
   - [2.0.3](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.0.3)
 - FormBundle
-  - [1.12.74](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.12.74)
+  - [1.12.74](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.74)
 
 # 3.8.8
 - ClientHelperBundle
@@ -27,7 +37,7 @@
 - CommonBundle
   - [1.8.105](https://github.com/ems-project/EMSCommonBundle/releases/tag/1.8.105)
 - FormBundle
-  - [1.12.72](https://github.com/ems-project/EMSCoreBundle/releases/tag/1.12.72)
+  - [1.12.72](https://github.com/ems-project/EMSFormBundle/releases/tag/1.12.72)
 
 # 3.8.4
 - ClientHelperBundle
