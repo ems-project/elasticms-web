@@ -1,3 +1,8 @@
+# 3.8.11
+- Extra HTTP_X_COMPANY_FORWARDED_FOR, HTTP_X_COMPANY_FORWARDED_HOST environment variables
+- New EMSCH_SEARCH_LIMIT environment variable
+
+
 # 3.8.10
 - ClientHelperBundle
   - [3.8.10](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.8.10)
