@@ -142,6 +142,10 @@ Example base template.
 <link rel="stylesheet" href="{{ asset('css/app.css', 'emsch') }}">
 ```
 
+### EMSCH_SEARCH_LIMIT
+
+Specify the maximum number of expected document for template, translation and route content types. Default value `1000`
+
 ## Elasticms Common Bundle variables
 
 ### EMS_ELASTICSEARCH_HOSTS
