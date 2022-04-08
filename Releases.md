@@ -1,3 +1,9 @@
+# 3.8.12
+- CommonBundle
+  - [2.0.8](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.0.8)
+- ClientHelperBundle
+  - [3.8.12](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.8.12)
+
 # 3.8.11
 - Extra FORWARDED environment attribures
 - New EMSCH_SEARCH_LIMIT env variables
