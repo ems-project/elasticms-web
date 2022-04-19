@@ -1,5 +1,6 @@
 # 3.8.13
 - New EMS_BACKEND_API_KEY env variable
+- New EMSF_TYPE env variable
 - CommonBundle
   - [2.0.9](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.0.9)
 - ClientHelperBundle
