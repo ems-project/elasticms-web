@@ -1,0 +1,7 @@
+parameters:
+    paths:
+        - %currentWorkingDirectory%/src
+    level: 8
+    inferPrivatePropertyTypeFromConstructor: true
+    parallel:
+        maximumNumberOfProcesses: 2
