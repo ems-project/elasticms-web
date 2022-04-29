@@ -14,3 +14,7 @@ user_api:
 asset:
   resource: '@EMSClientHelperBundle/Resources/config/routing/asset.xml'
   prefix: /bundles
+
+ems_common:
+  resource: 'ems_common.route.loader::load'
+  type: service
