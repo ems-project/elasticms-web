@@ -14,7 +14,7 @@ parameters:
     env(EMS_BACKEND_API_KEY): ~
 
     env(EMS_CACHE): 'file_system'
-    env(EMS_CACHE_PREFIX): ''
+    env(EMS_CACHE_PREFIX): ~
     env(EMS_REDIS_HOST): '%env(REDIS_HOST)%'
     env(EMS_REDIS_PORT): '%env(int:REDIS_PORT)%'
     env(EMS_METRIC_ENABLED): false

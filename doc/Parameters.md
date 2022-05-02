@@ -179,7 +179,7 @@ Allowed values: `file_system`, `apc` and `redis`.
 
 ### EMS_CACHE_PREFIX
 
-Define when using the ems cache service. Unique value per project, otherwise wipe storage will clear all cached values. 
+Unique required value per project, otherwise wipe storage will clear all cached values. 
 
 ### EMS_REDIS_HOST
 
