@@ -1,3 +1,12 @@
+# 3.9.0
+- New EMS_CACHE, EMS_CACHE_PREFIX
+- New EMS_REDIS_HOST, EMS_REDIS_PORT
+- New EMS_METRIC_ENABLED, EMS_METRIC_HOST
+- CommonBundle
+  - [2.1.0](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.1.0)
+- SubmissionBundle
+  - [2.2.0](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/2.2.0)
+
 # 3.8.13
 - New EMS_BACKEND_API_KEY env variable
 - New EMSF_TYPE env variable

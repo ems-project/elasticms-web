@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.222.1",
+            "version": "3.222.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "632621d97180e82d3adc1245a7b272774c30dbf5"
+                "reference": "17db4851c065b92e76466d8e6ddef0a7e8367416"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/632621d97180e82d3adc1245a7b272774c30dbf5",
-                "reference": "632621d97180e82d3adc1245a7b272774c30dbf5",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/17db4851c065b92e76466d8e6ddef0a7e8367416",
+                "reference": "17db4851c065b92e76466d8e6ddef0a7e8367416",
                 "shasum": ""
             },
             "require": {
@@ -143,9 +143,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.222.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.222.2"
             },
-            "time": "2022-04-28T18:17:24+00:00"
+            "time": "2022-04-29T18:14:00+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -2431,12 +2431,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSSubmissionBundle.git",
-                "reference": "6b10ec1381c1dcdf2d90437c398d3b61b5e46eda"
+                "reference": "e5af4afefd2d22fd2cb9e286f5c98982abee896d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSSubmissionBundle/zipball/6b10ec1381c1dcdf2d90437c398d3b61b5e46eda",
-                "reference": "6b10ec1381c1dcdf2d90437c398d3b61b5e46eda",
+                "url": "https://api.github.com/repos/ems-project/EMSSubmissionBundle/zipball/e5af4afefd2d22fd2cb9e286f5c98982abee896d",
+                "reference": "e5af4afefd2d22fd2cb9e286f5c98982abee896d",
                 "shasum": ""
             },
             "require": {
@@ -2488,7 +2488,7 @@
                 "issues": "https://github.com/ems-project/EMSSubmissionBundle/issues",
                 "source": "https://github.com/ems-project/EMSSubmissionBundle/tree/2.2.0"
             },
-            "time": "2022-04-29T13:12:07+00:00"
+            "time": "2022-05-02T07:55:17+00:00"
         },
         {
             "name": "elasticsearch/elasticsearch",
@@ -2866,16 +2866,16 @@
         },
         {
             "name": "friendsofphp/proxy-manager-lts",
-            "version": "v1.0.8",
+            "version": "v1.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/proxy-manager-lts.git",
-                "reference": "581ab35f83ce2135057e0afae892fbf1c583bfb9"
+                "reference": "88dda72c48633326c81a01b861c8b6a923948f56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/proxy-manager-lts/zipball/581ab35f83ce2135057e0afae892fbf1c583bfb9",
-                "reference": "581ab35f83ce2135057e0afae892fbf1c583bfb9",
+                "url": "https://api.github.com/repos/FriendsOfPHP/proxy-manager-lts/zipball/88dda72c48633326c81a01b861c8b6a923948f56",
+                "reference": "88dda72c48633326c81a01b861c8b6a923948f56",
                 "shasum": ""
             },
             "require": {
@@ -2932,7 +2932,7 @@
             ],
             "support": {
                 "issues": "https://github.com/FriendsOfPHP/proxy-manager-lts/issues",
-                "source": "https://github.com/FriendsOfPHP/proxy-manager-lts/tree/v1.0.8"
+                "source": "https://github.com/FriendsOfPHP/proxy-manager-lts/tree/v1.0.10"
             },
             "funding": [
                 {
@@ -2944,7 +2944,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-28T20:30:12+00:00"
+            "time": "2022-05-01T10:41:21+00:00"
         },
         {
             "name": "giggsey/libphonenumber-for-php",
