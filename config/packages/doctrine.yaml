@@ -6,9 +6,12 @@ parameters:
     env(DB_PORT): '3306'
     env(DB_NAME): 'elasticms'
     env(DB_CONNECTION_TIMEOUT): 30
+    env(DB_SERVER_VERSION): '5.7'
 
 doctrine:
     dbal:
+        server_version: '%env(resolve:DB_SERVER_VERSION)%'
+
         url: '%env(string:DB_DRIVER)%://%env(string:DB_USER)%:%env(urlencode:DB_PASSWORD)%@%env(string:DB_HOST)%:%env(string:DB_PORT)%/%env(string:DB_NAME)%'
         options:
             2: '%env(int:DB_CONNECTION_TIMEOUT)%' #const PDO:ATTR_TIMEOUT = 2 , minimum value is 2 https://pracucci.com/php-pdo-pgsql-connection-timeout.html
