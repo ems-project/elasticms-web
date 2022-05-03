@@ -1,3 +1,13 @@
+# 3.9.2
+- Defaults for REDIS_HOST & REDIS_PORT
+- Fix doctrine server_version
+- new EMS_METRIC_PORT
+- CommonBundle
+  - [2.1.1](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.1.1)
+
+# 3.9.1
+- Fix doctrine migrations
+
 # 3.9.0
 - New EMS_CACHE, EMS_CACHE_PREFIX
 - New EMS_REDIS_HOST, EMS_REDIS_PORT
