@@ -1,3 +1,9 @@
+# 3.9.3
+- ClientHelperBundle
+  - [3.8.14](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.8.14)
+- CommonBundle
+  - [2.1.2](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.1.2)
+
 # 3.9.2
 - Defaults for REDIS_HOST & REDIS_PORT
 - Fix doctrine server_version
