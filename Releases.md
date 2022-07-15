@@ -1,3 +1,16 @@
+# 3.10.2
+- ClientHelperBundle
+  - [3.10.2](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.10.2)
+  - [3.10.1](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.10.1)
+- CommonBundle
+  - [2.2.1](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.2.1)
+  - [2.2.0](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.2.0)
+- Helpers
+  - [1.0.8](https://github.com/ems-project/helpers/releases/tag/1.0.8)
+  - [1.0.7](https://github.com/ems-project/helpers/releases/tag/1.0.7)
+  - [1.0.6](https://github.com/ems-project/helpers/releases/tag/1.0.6)
+  - [1.0.5](https://github.com/ems-project/helpers/releases/tag/1.0.5)
+
 # 3.10.0
 - ClientHelperBundle
   - [3.10.0](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.10.0)
