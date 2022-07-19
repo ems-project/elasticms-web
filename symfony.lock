@@ -20,6 +20,15 @@
     "composer/package-versions-deprecated": {
         "version": "1.11.99.4"
     },
+    "composer/pcre": {
+        "version": "1.0.1"
+    },
+    "composer/semver": {
+        "version": "3.3.2"
+    },
+    "composer/xdebug-handler": {
+        "version": "2.0.5"
+    },
     "dasprid/enum": {
         "version": "1.0.3"
     },
@@ -128,6 +137,18 @@
     "firebase/php-jwt": {
         "version": "v5.2.0"
     },
+    "friendsofphp/php-cs-fixer": {
+        "version": "3.4",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.0",
+            "ref": "be2103eb4a20942e28a6dd87736669b757132435"
+        },
+        "files": [
+            "./.php-cs-fixer.dist.php"
+        ]
+    },
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.1"
     },
@@ -212,6 +233,9 @@
     "phenx/php-svg-lib": {
         "version": "v0.3.3"
     },
+    "php-cs-fixer/diff": {
+        "version": "v2.0.2"
+    },
     "phpdocumentor/reflection-common": {
         "version": "1.0.1"
     },
@@ -229,6 +253,9 @@
     },
     "phpspec/prophecy": {
         "version": "1.13.0"
+    },
+    "phpstan/phpstan": {
+        "version": "0.12.99"
     },
     "phpunit/php-code-coverage": {
         "version": "9.2.6"
@@ -258,6 +285,9 @@
             "./phpunit.xml.dist",
             "./tests/bootstrap.php"
         ]
+    },
+    "promphp/prometheus_client_php": {
+        "version": "v2.6.0"
     },
     "psr/cache": {
         "version": "1.0.1"

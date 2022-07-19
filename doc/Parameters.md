@@ -164,6 +164,50 @@ Used to define storage services. Elasticms supports [multiple types of storage s
 Refers to the [PHP hash_algos](https://www.php.net/manual/fr/function.hash-algos.php) function. Specify the algorithms to used in order to hash and identify files. It's also used to hash the document indexed in elasticsearch.
 - Default value: EMS_HASH_ALGO='sha1'
 
+### EMS_BACKEND_URL
+
+Define backend elasticms url. CommonBundle provides a CoreApi instance.
+
+### EMS_BACKEND_API_KEY
+
+Define backend authentication token. The commonBundle coreApi instance becomes authenticated.
+
+### EMS_CACHE
+
+Define the ems cache type. Default value `file_system`. 
+Allowed values: `file_system`, `apc` and `redis`. 
+
+### EMS_CACHE_PREFIX
+
+Unique required value per project, otherwise wipe storage will clear all cached values. 
+
+### EMS_REDIS_HOST
+
+Use a different redis host for the common cache service. Default REDIS_HOST env variable.
+
+### EMS_REDIS_PORT
+
+Use a different redis port for the common cache service. Default REDIS_PORT env variable.
+
+### EMS_METRIC_ENABLED
+
+Default value `false`, if true `/metrics` is added to the routes.
+
+### EMS_METRIC_HOST
+
+Default value empty, symfony route host pattern for allow hosting on /metrics
+
+### EMS_METRIC_PORT
+
+Default value null, if defined will check the SERVER_PORT and throw 404 if not matching
+
+### EMS_WEBALIZE_REMOVABLE_REGEX
+
+Can fine tune the ems_weblize twig filter by adjusting the regex used to remove some characters. Default value `/([^a-zA-Z0-9\_\|\ \-\.])|(\.$)/`
+
+### EMS_WEBALIZE_DASHABLE_REGEX
+
+Can fine tune the ems_weblize twig filter by adjusting the regex used to replace some characters by a dash `-`. Default value `/([^a-zA-Z0-9\_\|\ \-\.])|(\.$)/`
 
 ## Elasticms Form Bundle variables
 
@@ -182,6 +226,8 @@ Define the [load form JSON](https://github.com/ems-project/EMSFormBundle/blob/ma
 ### EMSF_CACHEABLE
 Define the [cacheable](https://github.com/ems-project/EMSFormBundle/blob/master/doc/config.md#cacheable) for the form bundle. Set to `true` by default.
 
+### EMSF_TYPE
+Define the [type](https://github.com/ems-project/EMSFormBundle/blob/master/doc/config.md#type) for the form bundle. Set to `form_instance` by default.
 
 ## Elasticms Submission Bundle variables
 

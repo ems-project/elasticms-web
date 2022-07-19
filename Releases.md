@@ -1,3 +1,71 @@
+# 3.10.2
+- ClientHelperBundle
+  - [3.10.2](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.10.2)
+  - [3.10.1](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.10.1)
+- CommonBundle
+  - [2.2.1](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.2.1)
+  - [2.2.0](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.2.0)
+- Helpers
+  - [1.0.8](https://github.com/ems-project/helpers/releases/tag/1.0.8)
+  - [1.0.7](https://github.com/ems-project/helpers/releases/tag/1.0.7)
+  - [1.0.6](https://github.com/ems-project/helpers/releases/tag/1.0.6)
+  - [1.0.5](https://github.com/ems-project/helpers/releases/tag/1.0.5)
+
+# 3.10.0
+- ClientHelperBundle
+  - [3.10.0](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.10.0)
+- CommonBundle
+  - [2.1.4](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.1.4)
+
+# 3.9.4
+- ClientHelperBundle
+  - [3.9.4](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.9.4)
+- CommonBundle
+  - [2.1.3](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.1.3)
+- FormBundle
+  - [1.13.1](https://github.com/ems-project/EMSFormBundle/releases/tag/1.13.1)
+
+# 3.9.3
+- ClientHelperBundle
+  - [3.8.14](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.8.14)
+- CommonBundle
+  - [2.1.2](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.1.2)
+
+# 3.9.2
+- Defaults for REDIS_HOST & REDIS_PORT
+- Fix doctrine server_version
+- new EMS_METRIC_PORT
+- CommonBundle
+  - [2.1.1](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.1.1)
+
+# 3.9.1
+- Fix doctrine migrations
+
+# 3.9.0
+- New EMS_CACHE, EMS_CACHE_PREFIX
+- New EMS_REDIS_HOST, EMS_REDIS_PORT
+- New EMS_METRIC_ENABLED, EMS_METRIC_HOST
+- CommonBundle
+  - [2.1.0](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.1.0)
+- SubmissionBundle
+  - [2.2.0](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/2.2.0)
+
+# 3.8.13
+- New EMS_BACKEND_API_KEY env variable
+- New EMSF_TYPE env variable
+- CommonBundle
+  - [2.0.9](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.0.9)
+- ClientHelperBundle
+  - [3.8.13](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.8.13)
+- FormBundle
+  - [1.13.0](https://github.com/ems-project/EMSFormBundle/releases/tag/1.13.0)
+
+# 3.8.12
+- CommonBundle
+  - [2.0.8](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.0.8)
+- ClientHelperBundle
+  - [3.8.12](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.8.12)
+
 # 3.8.11
 - Extra FORWARDED environment attribures
 - New EMSCH_SEARCH_LIMIT env variables
