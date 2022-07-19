@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.231.6",
+            "version": "3.231.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "54c5fe6667c73010d954ce4c4d657d093f0bdcbf"
+                "reference": "99b3e4585ac82a6e9ab6d1944d90231456fefbea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/54c5fe6667c73010d954ce4c4d657d093f0bdcbf",
-                "reference": "54c5fe6667c73010d954ce4c4d657d093f0bdcbf",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/99b3e4585ac82a6e9ab6d1944d90231456fefbea",
+                "reference": "99b3e4585ac82a6e9ab6d1944d90231456fefbea",
                 "shasum": ""
             },
             "require": {
@@ -144,9 +144,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.231.6"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.231.8"
             },
-            "time": "2022-07-14T18:20:54+00:00"
+            "time": "2022-07-18T18:20:47+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -4682,16 +4682,16 @@
         },
         {
             "name": "phpoffice/phpspreadsheet",
-            "version": "1.24.0",
+            "version": "1.24.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPOffice/PhpSpreadsheet.git",
-                "reference": "ebe8745c92a7cac4514d040758393b5399633b83"
+                "reference": "69991111e05fca3ff7398e1e7fca9ebed33efec6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/ebe8745c92a7cac4514d040758393b5399633b83",
-                "reference": "ebe8745c92a7cac4514d040758393b5399633b83",
+                "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/69991111e05fca3ff7398e1e7fca9ebed33efec6",
+                "reference": "69991111e05fca3ff7398e1e7fca9ebed33efec6",
                 "shasum": ""
             },
             "require": {
@@ -4780,9 +4780,9 @@
             ],
             "support": {
                 "issues": "https://github.com/PHPOffice/PhpSpreadsheet/issues",
-                "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/1.24.0"
+                "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/1.24.1"
             },
-            "time": "2022-07-09T13:49:09+00:00"
+            "time": "2022-07-18T19:50:48+00:00"
         },
         {
             "name": "phpseclib/phpseclib",
@@ -14064,5 +14064,5 @@
         "ext-iconv": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.2.0"
 }
