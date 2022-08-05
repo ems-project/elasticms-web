@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "676124f09905637ee3efb7140d9bf20f",
+    "content-hash": "7d47ede3e2e7374c44c18470afd7368d",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -2028,21 +2028,21 @@
         },
         {
             "name": "elasticms/client-helper-bundle",
-            "version": "4.0.x-dev",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSClientHelperBundle.git",
-                "reference": "14c82b03f21f315e269cb0e7500823bb5e1a5c5a"
+                "reference": "6a433982a59ba82bd2d437deb4a74ef92b30c6b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/14c82b03f21f315e269cb0e7500823bb5e1a5c5a",
-                "reference": "14c82b03f21f315e269cb0e7500823bb5e1a5c5a",
+                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/6a433982a59ba82bd2d437deb4a74ef92b30c6b7",
+                "reference": "6a433982a59ba82bd2d437deb4a74ef92b30c6b7",
                 "shasum": ""
             },
             "require": {
                 "composer/ca-bundle": "^1.1",
-                "elasticms/common-bundle": "4.0.*@dev",
+                "elasticms/common-bundle": "^4.0",
                 "php": "^7.4",
                 "symfony-cmf/routing": "^2.3",
                 "symfony/asset": "^4.4|^5.4",
@@ -2081,13 +2081,13 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSClientHelperBundle/issues",
-                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/4.0"
+                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/4.0.0"
             },
-            "time": "2022-08-05T09:47:06+00:00"
+            "time": "2022-08-05T13:54:36+00:00"
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "4.0.x-dev",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
@@ -2165,27 +2165,26 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSCommonBundle/issues",
-                "source": "https://github.com/ems-project/EMSCommonBundle/tree/4.0"
+                "source": "https://github.com/ems-project/EMSCommonBundle/tree/4.0.0"
             },
             "time": "2022-08-05T09:46:51+00:00"
         },
         {
             "name": "elasticms/form-bundle",
-            "version": "4.0.x-dev",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSFormBundle.git",
-                "reference": "5b073d85246eae00447ce3f202627461187d0a5d"
+                "reference": "0175e8e315d1d578064af29e04d931d7d00af49c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSFormBundle/zipball/5b073d85246eae00447ce3f202627461187d0a5d",
-                "reference": "5b073d85246eae00447ce3f202627461187d0a5d",
+                "url": "https://api.github.com/repos/ems-project/EMSFormBundle/zipball/0175e8e315d1d578064af29e04d931d7d00af49c",
+                "reference": "0175e8e315d1d578064af29e04d931d7d00af49c",
                 "shasum": ""
             },
             "require": {
-                "elasticms/client-helper-bundle": "4.0.*@dev",
-                "elasticms/common-bundle": "@dev",
+                "elasticms/client-helper-bundle": "^4.0",
                 "giggsey/libphonenumber-for-php": "^8.12",
                 "php": "^7.4",
                 "symfony/form": "^4.4|^5.4",
@@ -2222,9 +2221,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSFormBundle/issues",
-                "source": "https://github.com/ems-project/EMSFormBundle/tree/4.0"
+                "source": "https://github.com/ems-project/EMSFormBundle/tree/4.0.0"
             },
-            "time": "2022-08-05T09:38:20+00:00"
+            "time": "2022-08-05T14:00:30+00:00"
         },
         {
             "name": "elasticms/helpers",
@@ -2295,22 +2294,20 @@
         },
         {
             "name": "elasticms/submission-bundle",
-            "version": "4.0.x-dev",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSSubmissionBundle.git",
-                "reference": "2864ca3075a5f231cb7dd38adbb5e0c2fe2fc0ce"
+                "reference": "f2cb218274638949d5e95b6522a412a6793794e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSSubmissionBundle/zipball/2864ca3075a5f231cb7dd38adbb5e0c2fe2fc0ce",
-                "reference": "2864ca3075a5f231cb7dd38adbb5e0c2fe2fc0ce",
+                "url": "https://api.github.com/repos/ems-project/EMSSubmissionBundle/zipball/f2cb218274638949d5e95b6522a412a6793794e1",
+                "reference": "f2cb218274638949d5e95b6522a412a6793794e1",
                 "shasum": ""
             },
             "require": {
-                "elasticms/client-helper-bundle": "@dev",
-                "elasticms/common-bundle": "@dev",
-                "elasticms/form-bundle": "4.0.*@dev",
+                "elasticms/form-bundle": "^4.0",
                 "league/flysystem-memory": "^2.0",
                 "league/flysystem-sftp-v3": "^2.0",
                 "php": "^7.4",
@@ -2350,9 +2347,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ems-project/EMSSubmissionBundle/issues",
-                "source": "https://github.com/ems-project/EMSSubmissionBundle/tree/4.0"
+                "source": "https://github.com/ems-project/EMSSubmissionBundle/tree/4.0.0"
             },
-            "time": "2022-08-05T09:14:02+00:00"
+            "time": "2022-08-05T14:02:57+00:00"
         },
         {
             "name": "elasticsearch/elasticsearch",
@@ -3366,23 +3363,25 @@
         },
         {
             "name": "khanamiryan/qrcode-detector-decoder",
-            "version": "1.0.5.2",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/khanamiryan/php-qrcode-detector-decoder.git",
-                "reference": "04fdd58d86a387065f707dc6d3cc304c719910c1"
+                "reference": "45326fb83a2a375065dbb3a134b5b8a5872da569"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/khanamiryan/php-qrcode-detector-decoder/zipball/04fdd58d86a387065f707dc6d3cc304c719910c1",
-                "reference": "04fdd58d86a387065f707dc6d3cc304c719910c1",
+                "url": "https://api.github.com/repos/khanamiryan/php-qrcode-detector-decoder/zipball/45326fb83a2a375065dbb3a134b5b8a5872da569",
+                "reference": "45326fb83a2a375065dbb3a134b5b8a5872da569",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6"
             },
             "require-dev": {
-                "phpunit/phpunit": "^5.7 | ^7.5 | ^8.0 | ^9.0"
+                "phpunit/phpunit": "^5.7 | ^7.5 | ^8.0 | ^9.0",
+                "rector/rector": "^0.13.6",
+                "symplify/easy-coding-standard": "^11.0"
             },
             "type": "library",
             "autoload": {
@@ -3415,9 +3414,9 @@
             ],
             "support": {
                 "issues": "https://github.com/khanamiryan/php-qrcode-detector-decoder/issues",
-                "source": "https://github.com/khanamiryan/php-qrcode-detector-decoder/tree/1.0.5.2"
+                "source": "https://github.com/khanamiryan/php-qrcode-detector-decoder/tree/1.0.6"
             },
-            "time": "2021-07-13T18:46:38+00:00"
+            "time": "2022-06-29T09:25:13+00:00"
         },
         {
             "name": "laminas/laminas-code",
@@ -14108,12 +14107,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "elasticms/client-helper-bundle": 20,
-        "elasticms/common-bundle": 20,
-        "elasticms/form-bundle": 20,
-        "elasticms/submission-bundle": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
