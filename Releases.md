@@ -1,4 +1,4 @@
-# 3.10.3
+# 3.10.4
 - CommonBundle
   - [2.2.2](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.2.2)
   - [2.2.3](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.2.3)
