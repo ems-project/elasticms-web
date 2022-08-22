@@ -1,3 +1,6 @@
+/local/
+/public/skeleton
+
 ###> symfony/framework-bundle ###
 /.env
 /public/bundles/
@@ -19,6 +22,5 @@
 ###< friendsofphp/php-cs-fixer ###
 
 ###> phpunit/phpunit ###
-/phpunit.xml
 .phpunit.result.cache
 ###< phpunit/phpunit ###
