@@ -1,3 +1,15 @@
+## Release 4.0.0
+- CoreBundle
+  - [4.0.0](https://github.com/ems-project/EMSCoreBundle/releases/tag/4.0.0)
+- CommonBundle
+  - [4.0.0](https://github.com/ems-project/EMSCommonBundle/releases/tag/4.0.0)
+- ClientHelperBundle
+  - [4.0.0](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/4.0.0)
+- FormBundle
+  - [4.0.0](https://github.com/ems-project/EMSFormBundle/releases/tag/4.0.0)
+- SubmissionBundle
+  - [4.0.0](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/4.0.0)
+
 # 3.10.2
 - ClientHelperBundle
   - [3.10.2](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.10.2)
