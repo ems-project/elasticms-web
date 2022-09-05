@@ -10,6 +10,15 @@
 - SubmissionBundle
   - [4.0.0](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/4.0.0)
 
+# 3.10.5
+- CommonBundle
+  - [2.2.3](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.2.3)
+
+# 3.10.4
+- CommonBundle
+  - [2.2.2](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.2.2)
+  - [2.2.3](https://github.com/ems-project/EMSCommonBundle/releases/tag/2.2.3)
+
 # 3.10.2
 - ClientHelperBundle
   - [3.10.2](https://github.com/ems-project/EMSClientHelperBundle/releases/tag/3.10.2)
