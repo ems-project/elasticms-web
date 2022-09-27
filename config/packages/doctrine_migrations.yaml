@@ -3,7 +3,7 @@ parameters:
 
 doctrine_migrations:
     migrations_paths:
-        Application\Migrations: '%kernel.project_dir%/src/Migrations/pdo_%env(resolve:DB_DRIVER)%'
+        DoctrineMigrations: '%kernel.project_dir%/migrations/pdo_%env(resolve:DB_DRIVER)%'
     storage:
         table_storage:
             table_name: 'migration_versions'
