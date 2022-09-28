@@ -17,7 +17,8 @@ return $config
         '@Symfony' => true,
         'declare_strict_types' => true,
         'native_function_invocation' => ['include' => ['@all']],
+        'no_unused_imports' => true,
     ])
     ->setRiskyAllowed(true)
     ->setFinder($finder)
-;
+    ;
