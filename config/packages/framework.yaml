@@ -11,6 +11,7 @@ framework:
     # Remove or comment this section to explicitly disable session support.
     session:
         handler_id: ~
+        storage_factory_id: session.storage.factory.native
 
     assets:
         packages:
