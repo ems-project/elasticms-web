@@ -1,3 +1,6 @@
+parameters:
+    env(DEFAULT_LOCAL): 'en'
+
 framework:
     secret: '%env(APP_SECRET)%'
     default_locale: '%env(DEFAULT_LOCAL)%'
@@ -8,6 +11,7 @@ framework:
     # Remove or comment this section to explicitly disable session support.
     session:
         handler_id: ~
+        storage_factory_id: session.storage.factory.native
 
     assets:
         packages:
@@ -39,3 +43,14 @@ framework:
         enabled:              true
         translation_domain:   validators
         email_validation_mode: html5
+
+when@redis:
+    framework:
+        session:
+            handler_id: Symfony\Component\HttpFoundation\Session\Storage\Handler\RedisSessionHandler
+
+when@test:
+    framework:
+        test: true
+        session:
+            storage_id: session.storage.mock_file
