@@ -9,6 +9,8 @@
   - [4.1.0](https://github.com/ems-project/EMSFormBundle/releases/tag/4.1.0)
 - SubmissionBundle
   - [4.1.0](https://github.com/ems-project/EMSSubmissionBundle/releases/tag/4.1.0)
+- Helpers
+  - [1.1.0](https://github.com/ems-project/helpers/releases/tag/1.1.0)
 
 ## Release 4.0.0
 - CoreBundle
