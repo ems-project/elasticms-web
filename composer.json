@@ -21,6 +21,7 @@
         "symfony/framework-bundle": "^5.4",
         "symfony/mailer": "^5.4",
         "symfony/monolog-bundle": "^3.8",
+        "symfony/runtime": "^5.4",
         "symfony/security-bundle": "^5.4",
         "symfony/twig-bundle": "^5.4",
         "symfony/web-link": "^5.4",
@@ -47,7 +48,8 @@
         "secure-http": false,
         "allow-plugins": {
             "endroid/installer": false,
-            "symfony/flex": true
+            "symfony/flex": true,
+            "symfony/runtime": true
         }
     },
     "autoload": {
