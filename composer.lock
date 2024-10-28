@@ -2387,21 +2387,21 @@
         },
         {
             "name": "endroid/installer",
-            "version": "1.5.0",
+            "version": "1.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/endroid/installer.git",
-                "reference": "39109e825057b2e7436123d5ad5dc8c2467a4cf6"
+                "reference": "308051404c8370b9641cd61d86a464f2c6938265"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/endroid/installer/zipball/39109e825057b2e7436123d5ad5dc8c2467a4cf6",
-                "reference": "39109e825057b2e7436123d5ad5dc8c2467a4cf6",
+                "url": "https://api.github.com/repos/endroid/installer/zipball/308051404c8370b9641cd61d86a464f2c6938265",
+                "reference": "308051404c8370b9641cd61d86a464f2c6938265",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^2.0",
-                "php": "^8.2"
+                "php": "^8.1"
             },
             "require-dev": {
                 "composer/composer": "^2.0",
@@ -2413,7 +2413,7 @@
             "type": "composer-plugin",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.x-dev"
+                    "dev-master": "1.x-dev"
                 },
                 "class": "Endroid\\Installer\\Installer"
             },
@@ -2435,7 +2435,7 @@
             "description": "Composer plugin for installing configuration files",
             "support": {
                 "issues": "https://github.com/endroid/installer/issues",
-                "source": "https://github.com/endroid/installer/tree/1.5.0"
+                "source": "https://github.com/endroid/installer/tree/1.4.5"
             },
             "funding": [
                 {
@@ -2443,7 +2443,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-10-20T18:31:36+00:00"
+            "time": "2023-11-07T12:11:36+00:00"
         },
         {
             "name": "endroid/qr-code",
