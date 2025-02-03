@@ -2000,16 +2000,16 @@
         },
         {
             "name": "elasticms/client-helper-bundle",
-            "version": "5.23.6",
+            "version": "5.23.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSClientHelperBundle.git",
-                "reference": "59bd7ced4acc38661c257bb1452ec679a539cf41"
+                "reference": "c84042c6b11d7dcac0bee3d201479450cab38c1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/59bd7ced4acc38661c257bb1452ec679a539cf41",
-                "reference": "59bd7ced4acc38661c257bb1452ec679a539cf41",
+                "url": "https://api.github.com/repos/ems-project/EMSClientHelperBundle/zipball/c84042c6b11d7dcac0bee3d201479450cab38c1e",
+                "reference": "c84042c6b11d7dcac0bee3d201479450cab38c1e",
                 "shasum": ""
             },
             "require": {
@@ -2052,13 +2052,13 @@
                 "elasticms"
             ],
             "support": {
-                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/5.23.6"
+                "source": "https://github.com/ems-project/EMSClientHelperBundle/tree/5.23.7"
             },
-            "time": "2025-01-06T11:08:50+00:00"
+            "time": "2025-01-23T18:53:57+00:00"
         },
         {
             "name": "elasticms/common-bundle",
-            "version": "5.23.6",
+            "version": "5.23.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSCommonBundle.git",
@@ -2145,13 +2145,13 @@
                 "elasticms"
             ],
             "support": {
-                "source": "https://github.com/ems-project/EMSCommonBundle/tree/5.23.6"
+                "source": "https://github.com/ems-project/EMSCommonBundle/tree/5.23.7"
             },
             "time": "2024-12-09T15:36:52+00:00"
         },
         {
             "name": "elasticms/form-bundle",
-            "version": "5.23.6",
+            "version": "5.23.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSFormBundle.git",
@@ -2197,13 +2197,13 @@
                 "elasticms"
             ],
             "support": {
-                "source": "https://github.com/ems-project/EMSFormBundle/tree/5.23.6"
+                "source": "https://github.com/ems-project/EMSFormBundle/tree/5.23.7"
             },
             "time": "2024-10-28T09:28:00+00:00"
         },
         {
             "name": "elasticms/helpers",
-            "version": "5.23.6",
+            "version": "5.23.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/helpers.git",
@@ -2259,13 +2259,13 @@
                 "php"
             ],
             "support": {
-                "source": "https://github.com/ems-project/helpers/tree/5.23.6"
+                "source": "https://github.com/ems-project/helpers/tree/5.23.7"
             },
             "time": "2024-12-19T09:26:16+00:00"
         },
         {
             "name": "elasticms/submission-bundle",
-            "version": "5.23.6",
+            "version": "5.23.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ems-project/EMSSubmissionBundle.git",
@@ -2314,7 +2314,7 @@
                 "elasticms"
             ],
             "support": {
-                "source": "https://github.com/ems-project/EMSSubmissionBundle/tree/5.23.6"
+                "source": "https://github.com/ems-project/EMSSubmissionBundle/tree/5.23.7"
             },
             "time": "2024-10-28T09:28:00+00:00"
         },
@@ -14021,7 +14021,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
@@ -14031,6 +14031,6 @@
         "ext-intl": "*",
         "ext-json": "*"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
